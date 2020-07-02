@@ -6,7 +6,7 @@ HaplotypeExplorer is an interactive haplotype network viewer for spatiotemporal 
 
 1. Haplotype network of SARS-CoV-2 from 2020/04/16 to 2020/06/24 is provided as a sample data.
 
-2. Only you need is open `Result_SARS-CoV-2_0416-0624.html`.
+2. Example networks and JSON files are available in `Example`.
 
 ## Citation
 
