@@ -17,5 +17,5 @@ Tetsuro Kawano-Sugaya1*, Koji Yatsu1, Tsuyoshi Sekizuka1, Kentaro Itokawa1, Masa
 
 1 Pathogen Genomics Center, National Institute of Infectious Diseases, Toyama 1-23-1, Shinjuku, Tokyo, Japan
 
-* Corresponding authors: tks_jp@seikai.org
+* Corresponding author: Tetsuro Kawano-Sugaya (tks_jp@seikai.org)
 ```
