@@ -51,7 +51,8 @@ if __name__ == '__main__':
 					target = lines[index+7][13:].strip()			
 				edges.append({ 
 					"source" : source,
-					"target" : target
+					"target" : target,
+					"SNV" : 1
     			})
 	
 	# sort node data same to TCS result
