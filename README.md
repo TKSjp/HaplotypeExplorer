@@ -13,14 +13,14 @@ HaplotypeExplorer is an interactive haplotype network viewer for spatiotemporal 
 
 The way to visualize users data is also described in Figure 2. 
 
-- Install dependencies with conda: conda install -c bioconda seqkit mafft cd-hit snp-sites
-- Download TCS and put it in 'Source' directory. (e.g. './Downloads/HX/Source/TCS/')
-- Put multi-FASTA in './Downloads/HX/' as 'input0.fasta'.
-- Run 'python Step1.py' and 'python Step2.py'
-- Run TCS and save data in './Downloads/HX/' as 'TCS.gml'.
-- Run 'python Step3.py'
-- Open 'Result_in-house.html' then you can explore your network.
-- Please see also 'manual.pdf'.
+- Install dependencies with conda: `conda install -c bioconda seqkit mafft cd-hit snp-sites`
+- Download TCS and put it in 'Source' directory. (e.g. `./Downloads/HX/Source/TCS/`)
+- Put multi-FASTA in `./Downloads/HX/` as `input0.fasta`.
+- Run `python Step1.py` and `python Step2.py`
+- Run TCS and save data in `./Downloads/HX/` as `TCS.gml`.
+- Run `python Step3.py`
+- Open `Result_in-house.html` then you can explore your network.
+- Please see also `manual.pdf`.
 
 ## Citation
 
