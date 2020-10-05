@@ -7,6 +7,8 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/ja.js"></script>	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 <body>
@@ -14,34 +16,36 @@
 	<script>
 	(function() {
 		document.addEventListener('DOMContentLoaded', function() {
-		document.getElementById('convert').addEventListener('click', function() {
-			$('.toast').toast('show');
-			convert(document.getElementById('svggraph'), function(data) {
-			document.getElementById('png').src = data;
-			document.getElementById('png-link').href = data;
-			}, function(error) {
-			alert('Failed to convert. Please reload the page.');
+			document.getElementById('convert').addEventListener('click', function() {
+				$('.toast').toast('show');
+				convert(document.getElementById('svggraph'), function(data) {
+				document.getElementById('png').src = data;
+				document.getElementById('png-link').href = data;
+				}, 
+				function(error) {
+				alert('Failed to convert. Please reload the page.');
+				});
 			});
 		});
-		});
 		function convert(svg, success, error) {
-		var canvas = document.createElement('canvas');
-		canvas.width = svg.width.baseVal.value*4;
-		canvas.height = svg.height.baseVal.value*4;
-		var image = new Image();
-		var canvascontent = canvas.getContext('2d');
-		image.onload = () => {
-			canvascontent.scale(4,4);
-			canvascontent.drawImage(image, 0, 0, image.width, image.height);
-			success(canvas.toDataURL());
-		};
+			var canvas = document.createElement('canvas');
+			canvas.width = svg.width.baseVal.value*7;
+			canvas.height = svg.height.baseVal.value*7;
+			var image = new Image();
+			var canvascontent = canvas.getContext('2d');
+			image.onload = () => {
+				canvascontent.scale(7,7);
+				canvascontent.drawImage(image, 0, 0, image.width, image.height);
+				success(canvas.toDataURL());
+			};
 			image.onerror = (e) => {
 				error(e);
 			};
 			var svgData = new XMLSerializer().serializeToString(svg);
 			image.src = 'data:image/svg+xml;charset=utf-8;base64,' + btoa(svgData);
 			}
-		}());
+		}()
+	);
 	</script>
 
 	<div class="toast" style="position: absolute; top: 1; right: 0; margin-right: 20px; border-radius: 5px;" data-autohide="false">
@@ -65,8 +69,11 @@
 		});
 	});
 	</script>
+
 	<div class="all">
-		<div class="svgborder"><svg id="svggraph"></svg></div>
+		<div class="svgborder">
+			<svg id="svggraph" rotation="270"></svg>
+		</div>
 		<div class="logo">
 			<div class="toptext">
 				<center>
@@ -76,6 +83,9 @@
 			</div>
 			<br>
 			<div class="middletext">
+				<h5>Usage</h5>		
+				<button class="buttons" style="width: 98%;" onclick="window.open('https://github.com/TKSjp/HaplotypeExplorer/blob/master/manual.pdf','','')">Open manual</button>	
+				<br><br>	
 				<h5>Import & Settings</h5>
 				<textarea class='form-control' name="importdata" id='importdata' placeholder='Input JSON here'></textarea>
 				<button class="buttons" style="width: 98%;" onclick="importdata()">Import JSON</button>
@@ -83,23 +93,32 @@
 				<br>
 				Edge length
 				<br>
-				<label for="distance"><input name="distance" type="range" max="500" step="10" value="200" min="100" ></label>
+				<label for="distance"><input name="distance" type="range" max="600" step="50" value="300" min="50" ></label>
 				Auto positioning
 				<br>
-				<label for="force"><input name="force" type="range" min="100" max="5000" step="10" value="3000"></label>
+				<label for="force"><input name="force" type="range" min="100" max="10000" step="10" value="5000"></label>
 				Overlap avoidance
 				<br>
-				<label for="collision"><input name="collision" type="range" min="0" max="20" step="1" value="5"></label>
+				<label for="collision"><input name="collision" type="range" min="0" max="1" step="0.05" value="0"></label>
+				<br><br>
+				<h5>Search</h5>	
 				<div class="filterbox">
-				<input class='form-control' name="gisaid" type='text' id='gisaid' placeholder='GISAID ID (regexp)'/>
+				<input class='form-control' name="gisaid" type='text' id='gisaid' placeholder='Sequence ID (regexp)'/>
 				<input class='form-control' name="location" type='text' id='location' placeholder='location (regexp)'/>
 				<input class='form-control' name="fromdate" type='number' id='fromdate' placeholder='(YYYYMMDD) ~'>
 				<input class='form-control' name="todate" type='number' id='todate' placeholder='~ (YYYYMMDD)'/>
 				<button class="buttons" style="width: 47%;" onclick="searchNode()">FilterON</button>
 				<button class="buttons" style="width: 47%;" onclick="filterOFF()">FilterOFF</button><br>
+
 				<br><h5>Export</h5>
-				<button class="buttons" style="width: 47%;" id="convert">PNGimage</button>
-				<button class="buttons" style="width: 47%;" onclick="expdata(jsondata)" id="expdata">JSONformat</button>
+
+				<button class="buttons" style="width: 96%;" id="convert">Snapshot</button>
+
+				<input class='form-control' name="moviefromdate" id='moviefromdate' placeholder='Start movie at (YYYYMMDD)'>
+				<input class='form-control' name="movietodate" id='movietodate' placeholder='End movie at (YYYYMMDD)'/>
+				<input class='form-control' name="movieinterval" id='movieinterval' placeholder='take section per __ day'/>				
+				<button class="buttons" style="width: 96%;" onclick="makeMovie()" id="convertAll">Continuous sections</button>				
+				<button class="buttons" style="width: 96%;" onclick="expdata(jsondata)" id="expdata">JSON format</button>
 <!-- 				<button class="buttons" onclick="scaleBarON()">ScaleON</button>
 				<button class="buttons" onclick="scaleBarOFF()">ScaleOFF</button> -->
 			</div>
@@ -333,14 +352,11 @@
 	}
 </style>
 
-
-
-
-<script>
-	
+<script>	
 var jsondata =
 
 </script>
+
 <script>
 
 var DEFAULT_OPTIONS = {
@@ -469,621 +485,645 @@ var NodePieBuilder = {
 	// tooltip
 
 	// pie chart colloring						
-	var color = d3.scaleOrdinal().range(["pink","yellow", "orange", "blue", "red","cyan","darkgreen", "magenta"]); 
+	var color = d3.scaleOrdinal().range([
+		"pink",
+		"yellow", 
+		"red",			
+		"blue",
+		"orange", 
+		"cyan",		
+		"yellow", 
+		"darkgreen",
+		"gray", 
+		"#0f0"]); 
 	// pie chart colloring						
 
 	// assign countries in locations
-	var locationsDefinition = ["Africa", "America", "Asia", "China", "Japan", "Europe", "Oceania", "Other"];
-	var countries = {
-	'Afghanistan':'Asia',
-		'Albania':'Europe',
-		'Algeria':'Africa',
-		'Andorra':'Europe',
-		'Angola':'Africa',
-		'Anguilla':'America',
-		'Ankang':'China',
-		'Anqing':'China',
-		'Anshan':'China',
-		'Anshun':'China',
-		'Antigua and Barbuda':'America',
-		'Antigua_and_Barbuda':'America',
-		'Antigua Barbuda':'America',		
-		'Antigua_Barbuda':'America',		
-		'AntiguaBarbuda':'America',		
-		'Anyang':'China',
-		'Argentina':'America',
-		'Armenia':'Europe',
-		'Aruba':'America',
-		'Australia':'Oceania',
-		'Austria':'Europe',
-		'Azerbaijan':'Europe',
-		'Bahamas':'America',
-		'Bahrain':'Asia',
-		'Baicheng':'China',
-		'Baise':'China',
-		'Baishan':'China',
-		'Baiyin':'China',
-		'Bangladesh':'Asia',
-		'Baoding':'China',
-		'Baoji':'China',
-		'Baoshan':'China',
-		'Baotou':'China',
-		'Barbados':'America',
-		'Bayannur':'China',
-		'Bazhong':'China',
-		'Beihai':'China',
-		'Beijing':'China',
-		'Belarus':'Europe',
-		'Belgium':'Europe',
-		'Belize':'America',
-		'Bengbu':'China',
-		'Benin':'Africa',
-		'Benxi':'China',
-		'Bermuda':'America',
-		'Bhutan':'Asia',
-		'Bijie':'China',
-		'Binzhou':'China',
-		'Bolivia':'America',
-		'Bonaire Saint Eustatius and Saba':'America',		
-		'Bonaire, Saint Eustatius and Saba':'America',
-		'Bosnia and Herzegovina':'Europe',
-		'Bosnia_and Herzegovina':'Europe',
-		'Bosniaand Herzegovina':'Europe',		
-		'Botswana':'Africa',
-		'Bozhou':'China',
-		'Brazil':'America',
-		'British Virgin Islands':'America',
-		'British_Virgin Islands':'America',
-		'BritishVirgin Islands':'America',		
-		'Brunei Darussalam':'Asia',
-		'Brunei':'Asia',
-		'Brunei_Darussalam':'Asia',
-		'BruneiDarussalam':'Asia',		
-		'Bulgaria':'Europe',
-		'Burkina Faso':'Africa',
-		'Burkina_Faso':'Africa',
-		'BurkinaFaso':'Africa',		
-		'Burundi':'Africa',
-		'Cambodia':'Asia',
-		'Cameroon':'Africa',
-		'Canada':'America',
-		'Cangzhou':'China',
-		'Cape Verde':'Africa',
-		'Cape_Verde':'Africa',
-		'CapeVerde':'Africa',		
-		'Cases on an international conveyance Japan':'Other',
-		'Cayman Islands':'America',
-		'Cayman_Islands':'America',
-		'CaymanIslands':'America',		
-		'Central_African_Republic':'Africa',
-		'Chad':'Africa',
-		'Changchun':'China',
-		'Changde':'China',
-		'Changsha':'China',
-		'Changzhi':'China',
-		'Changzhou':'China',
-		'Chaohu':'China',
-		'Chaoyang':'China',
-		'Chaozhou':'China',
-		'Chengde':'China',
-		'Chengdu':'China',
-		'Chenzhou':'China',
-		'Chifeng':'China',
-		'Chile':'America',
-		'China':'China',
-		'Chizhou':'China',
-		'Chongqing':'China',
-		'Chongzuo':'China',
-		'Chuzhou':'China',
-		'Colombia':'America',
-		'Comoros':'Africa',
-		'Congo':'Africa',
-		'Costa Rica':'America',
-		'Costa_Rica':'America',
-		'CostaRica':'America',		
-		'Cote_dIvoire':'Africa',
-		'Croatia':'Europe',
-		'CruiseA':'America',
-		'Cuba':'America',
-		'CuraÃ§ao':'America',
-		'Cyprus':'Europe',
-		'Czech_Republic':'Europe',
-		'Czechia':'Europe',
-		'CzechRepublic':'Europe',
-		'Dalian':'China',
-		'Dandong':'China',
-		'Danzhou':'China',
-		'Daqing':'China',
-		'Datong':'China',
-		'Dazhou':'China',
-		'Democratic_Republic_of_the_Congo':'Africa',
-		'Denmark':'Europe',
-		'Deyang':'China',
-		'Dezhou':'China',
-		'Dingxi':'China',
-		'Djibouti':'Africa',
-		'Dominica':'America',
-		'Dominican Republic':'America',
-		'Dominican_Republic':'America',
-		'DominicanRepublic':'America',		
-		'Dongchuan':'China',
-		'Dongguan':'China',
-		'Dongying':'China',
-		'DRC':'Africa',
-		'Ecuador':'America',
-		'Egypt':'Africa',
-		'El Salvador':'America',
-		'El_Salvador':'America',
-		'ElSalvador':'America',		
-		'England':'Europe',
-		'Equatorial Guinea':'Africa',
-		'Equatorial_Guinea':'Africa',
-		'EquatorialGuinea':'Africa',		
-		'Eritrea':'Africa',
-		'Estonia':'Europe',
-		'Eswatini':'Africa',
-		'Ethiopia':'Africa',
-		'Ezhou':'China',
-		'Falkland Islands (Malvinas)':'America',
-		'FalklIslands (Malvinas)':'America',		
-		'Fangchenggang':'China',
-		'Faroe Islands':'Europe',
-		'Faroe_Islands':'Europe',
-		'FaroeIslands':'Europe',		
-		'Fiji':'Oceania',
-		'Finland':'Europe',
-		'Foshan':'China',
-		'France':'Europe',
-		'French Polynesia':'Oceania',
-		'French_Polynesia':'Oceania',
-		'FrenchPolynesia':'Oceania',		
-		'Fujian':'China',
-		'Fuling':'China',
-		'Fushun':'China',
-		'Fuxin':'China',
-		'Fuyang':'China',
-		'Fuzhou':'China',
-		'Gabon':'Africa',
-		'Gambia':'Africa',
-		'Ganzhou':'China',
-		'Georgia':'Europe',
-		'Germany':'Europe',
-		'Ghana':'Africa',
-		'Gibraltar':'Europe',
-		'Gongzhuling':'China',
-		'Greece':'Europe',
-		'Greenland':'America',
-		'Grenada':'America',
-		'Guam':'Oceania',
-		'Guangdong':'China',
-		'Guangyuan':'China',
-		'Guangzhou':'China',
-		'Guatemala':'America',
-		'Guernsey':'Europe',
-		'Guigang':'China',
-		'Guilin':'China',
-		'Guinea Bissau':'Africa',
-		'Guinea':'Africa',
-		'Guinea_Bissau':'Africa',
-		'GuineaBissau':'Africa',		
-		'Guiyang':'China',
-		'Guyana':'America',
-		'Guyuan':'China',
-		'Haidong':'China',
-		'Haikou':'China',
-		'Haiti':'America',
-		'Hami':'China',
-		'Handan':'China',
-		'Hangzhou':'China',
-		'Hanzhong':'China',
-		'Harbin':'China',
-		'Hebi':'China',
-		'Hechi':'China',
-		'Hefei':'China',
-		'Hegang':'China',
-		'Heihe':'China',
-		'Hengshui':'China',
-		'Hengyang':'China',
-		'Heyuan':'China',
-		'Heze':'China',
-		'Hezhou':'China',
-		'Hohhot':'China',
-		'Holy See':'Europe',
-		'Holy_See':'Europe',
-		'HolySee':'Europe',
-		'Honduras':'America',
-		'Hong_Kong':'China',
-		'Huaibei':'China',
-		'Huaihua':'China',
-		'Huainan':'China',
-		'Huanggang':'China',
-		'Huangshan':'China',
-		'Huangshi':'China',
-		'Huizhou':'China',
-		'Huludao':'China',
-		'Hulunbuir':'China',
-		'Hungary':'Europe',
-		'Huzhou':'China',
-		'Iceland':'Europe',
-		'India':'Asia',
-		'Indonesia':'Asia',
-		'Iran':'Asia',
-		'Iraq':'Asia',
-		'Ireland':'Europe',
-		'Isle of Man':'Europe',
-		'Isle_of_Man':'Europe',
-		'IsleMan':'Europe',		
-		'Israel':'Asia',
-		'Italy':'Europe',
-		'Jamaica':'America',
-		'Japan':'Japan',
-		'Jersey':'Europe',
-		'Jiamusi':'China',
-		'Jian':'China',
-		'Jiangmen':'China',
-		'Jiangxi':'China',
-		'Jiaozuo':'China',
-		'Jiaxing':'China',
-		'Jiayuguan':'China',
-		'Jieyang':'China',
-		'Jilin':'China',
-		'Jinan':'China',
-		'Jinchang':'China',
-		'Jincheng':'China',
-		'Jingdezhen':'China',
-		'Jingmen':'China',
-		'Jingzhou':'China',
-		'Jinhua':'China',
-		'Jining':'China',
-		'Jinzhong':'China',
-		'Jinzhou':'China',
-		'Jiujiang':'China',
-		'Jiuquan':'China',
-		'Jixi':'China',
-		'Jordan':'Asia',
-		'Kaifeng':'China',
-		'Karamay':'China',
-		'Kazakhstan':'Asia',
-		'Kenya':'Africa',
-		'Korea':'Asia',
-		'Kosovo':'Europe',
-		'Kunming':'China',
-		'Kuwait':'Asia',
-		'Kyrgyzstan':'Asia',
-		'Laibin':'China',
-		'Laiwu':'China',
-		'Langfang':'China',
-		'Lanzhou':'China',
-		'Laos':'Asia',
-		'Latvia':'Europe',
-		'Lebanon':'Asia',
-		'Leshan':'China',
-		'Lesotho':'Africa',
-		'Lhasa':'China',
-		'Lianyungang':'China',
-		'Liaocheng':'China',
-		'Liaoyang':'China',
-		'Liaoyuan':'China',
-		'Liberia':'Africa',
-		'Libya':'Africa',
-		'Liechtenstein':'Europe',
-		'Lijiang':'China',
-		'Lincang':'China',
-		'Linfen':'China',
-		'Linyi':'China',
-		'Lishui':'China',
-		'Lithuania':'Europe',
-		'Liupanshui':'China',
-		'Liuzhou':'China',
-		'Longnan':'China',
-		'Longyan':'China',
-		'Loudi':'China',
-		'Luohe':'China',
-		'Luoyang':'China',
-		'Luxembourg':'Europe',
-		'Luzhou':'China',
-		'Lüliang':'China',
-		'Madagascar':'Africa',
-		'Malawi':'Africa',
-		'Malaysia':'Asia',
-		'Maldives':'Asia',
-		'Mali':'Africa',
-		'Malta':'Europe',
-		'Maoming':'China',
-		'Mauritania':'Africa',
-		'Mauritius':'Africa',
-		'Meihekou':'China',
-		'Meishan':'China',
-		'Meizhou':'China',
-		'Mexico':'America',
-		'Mianyang':'China',
-		'Moldova':'Europe',
-		'Monaco':'Europe',
-		'Mongolia':'Asia',
-		'Montenegro':'Europe',
-		'Montserrat':'America',
-		'Morocco':'Africa',
-		'Mozambique':'Africa',
-		'Mudanjiang':'China',
-		'Myanmar':'Asia',
-		'Nagqu':'China',
-		'Namibia':'Africa',
-		'Nanchang':'China',
-		'NanChang':'China',
-		'Nanchong':'China',
-		'Nanjing':'China',
-		'Nanning':'China',
-		'Nanping':'China',
-		'Nantong':'China',
-		'Nanyang':'China',
-		'Neijiang':'China',
-		'Nepal':'Asia',
-		'Netherlands':'Europe',
-		'New Caledonia':'Oceania',
-		'New Zealand':'Oceania',
-		'New_Caledonia':'Oceania',
-		'New_Zealand':'Oceania',
-		'NewCaledonia':'Oceania',		
-		'NewZealand':'Oceania',		
-		'Nicaragua':'America',
-		'Niger':'Africa',
-		'Nigeria':'Africa',
-		'Ningbo':'China',
-		'Ningde':'China',
-		'North Macedonia':'Europe',
-		'North_Macedonia':'Europe',
-		'Northern Mariana Islands':'Oceania',
-		'Northern_Mariana Islands':'Oceania',
-		'NorthernMariana Islands':'Oceania',		
-		'NorthMacedonia':'Europe',		
-		'Norway':'Europe',
-		'Nyingchi':'China',
-		'Oman':'Asia',
-		'Ordos':'China',
-		'Pakistan':'Asia',
-		'Palestine':'Asia',
-		'Panama':'America',
-		'Panjin':'China',
-		'Panzhihua':'China',
-		'Papua New Guinea':'Oceania',
-		'Papua_New Guinea':'Oceania',
-		'PapuaNew Guinea':'Oceania',		
-		'Paraguay':'America',
-		'Peru':'America',
-		'Philippines':'Asia',
-		'Pingdingshan':'China',
-		'Pingliang':'China',
-		'Pingxiang':'China',
-		'Poland':'Europe',
-		'Portugal':'Europe',
-		'Puerto Rico':'America',
-		'Puerto_Rico':'America',
-		'PuertoRico':'America',		
-		'Putian':'China',
-		'Puyang':'China',
-		'Qamdo':'China',
-		'Qatar':'Asia',
-		'Qingdao':'China',
-		'Qingyang':'China',
-		'Qingyuan':'China',
-		'Qinhuangdao':'China',
-		'Qinzhou':'China',
-		'Qiqihar':'China',
-		'Qitaihe':'China',
-		'Quanzhou':'China',
-		'Qujing':'China',
-		'Quzhou':'China',
-		'Rizhao':'China',
-		'Romania':'Europe',
-		'Russia':'Europe',
-		'Rwanda':'Africa',
-		'Saint Kitts and Nevis':'America',
-		'Saint Lucia':'America',
-		'Saint Vincent and the Grenadines':'America',
-		'Saint_Kitts and Nevis':'America',
-		'Saint_Lucia':'America',
-		'Saint_Vincent and the Grenadines':'America',
-		'SaintKitts and Nevis':'America',		
-		'SaintLucia':'America',		
-		'SaintVincent and the Grenadines':'America',		
-		'San Marino':'Europe',
-		'San_Marino':'Europe',
-		'SanMarino':'Europe',		
-		'Sanmenxia':'China',
-		'Sanming':'China',
-		'Sansha':'China',
-		'Sanya':'China',
-		'Sao Tome and Principe':'Africa',
-		'Sao_Tome and Principe':'Africa',
-		'SaoTome and Principe':'Africa',		
-		'Saudi Arabia':'Asia',
-		'Saudi_Arabia':'Asia',
-		'SaudiArabia':'Asia',
-		'SaudiArabia':'Asia',		
-		'Scotland':'Europe',
-		'Senegal':'Africa',
-		'Serbia':'Europe',
-		'Seychelles':'Africa',
-		'Shandong':'China',
-		'Shanghai':'China',
-		'Shangluo':'China',
-		'Shangqiu':'China',
-		'Shangrao':'China',
-		'Shannan':'China',
-		'Shantou':'China',
-		'Shanwei':'China',
-		'Shaoguan':'China',
-		'Shaoxing':'China',
-		'Shaoyang':'China',
-		'Shashi':'China',
-		'Shenyang':'China',
-		'Shenzhen':'China',
-		'Shijiazhuang':'China',
-		'Shiyan':'China',
-		'Shizuishan':'China',
-		'Shuangyashan':'China',
-		'Shuozhou':'China',
-		'Sichuan':'China',
-		'Sierra Leone':'Africa',
-		'Sierra_Leone':'Africa',
-		'SierraLeone':'Africa',		
-		'Singapore':'Asia',
-		'Sint Maarten':'America',
-		'Sint_Maarten':'America',
-		'SintMaarten':'America',		
-		'Siping':'China',
-		'Slovakia':'Europe',
-		'Slovenia':'Europe',
-		'Somalia':'Africa',
-		'Songyuan':'China',
-		'South Africa':'Africa',
-		'South Sudan':'Africa',
-		'South_Africa':'Africa',
-		'South_Korea':'Asia',
-		'South_Sudan':'Africa',
-		'SouthAfrica':'Africa',		
-		'SouthSudan':'Africa',		
-		'Spain':'Europe',
-		'Sri_Lanka':'Asia',
-		'Sudan':'Africa',
-		'Suihua':'China',
-		'Suining':'China',
-		'Suizhou':'China',
-		'Suqian':'China',
-		'Suriname':'America',
-		'Suzhou':'China',
-		'Sweden':'Europe',
-		'Switzerland':'Europe',
-		'Syria':'Asia',
-		'Taiwan':'Asia',
-		'Taiyuan':'China',
-		'Taizhou':'China',
-		'Tajikistan':'Asia',
-		'Tangshan':'China',
-		'Thailand':'Asia',
-		'Tianjin':'China',
-		'Tianshui':'China',
-		'Tieling':'China',
-		'Timor Leste':'Asia',
-		'Timor_Leste':'Asia',
-		'TimorLeste':'Asia',		
-		'Togo':'Africa',
-		'Tongchuan':'China',
-		'Tonghua':'China',
-		'Tongliao':'China',
-		'Tongling':'China',
-		'Tongren':'China',
-		'Trinidad and Tobago':'America',
-		'Trinidad_and Tobago':'America',
-		'Trinidadand Tobago':'America',		
-		'Tunisia':'Africa',
-		'Turkey':'Asia',
-		'Turks and Caicos islands':'America',
-		'Turks_and Caicos islands':'America',
-		'Turksand Caicos islands':'America',		
-		'Turpan':'China',
-		'Uganda':'Africa',
-		'Ukraine':'Europe',
-		'Ulanqab':'China',
-		'United Kingdom':'Europe',
-		'United Republic of Tanzania':'Africa',
-		'United States of America':'America',
-		'United States Virgin Islands':'America',
-		'United_Arab_Emirates':'Asia',
-		'United_Kingdom':'Europe',
-		'United_Republic of Tanzania':'Africa',
-		'United_States of America':'America',
-		'United_States Virgin Islands':'America',
-		'UnitedKingdom':'Europe',		
-		'UnitedRepublic of Tanzania':'Africa',		
-		'UnitedStates of America':'America',		
-		'UnitedStates Virgin Islands':'America',		
-		'Uruguay':'America',
-		'USA':'America',
-		'Uzbekistan':'Asia',
-		'Venezuela':'America',
-		'Vietnam':'Asia',
-		'Wales':'Europe',
-		'Wanxian':'China',
-		'Weifang':'China',
-		'Weihai':'China',
-		'Weinan':'China',
-		'Wenzhou':'China',
-		'Western Sahara':'Africa',
-		'Western_Sahara':'Africa',
-		'WesternSahara':'Africa',		
-		'Wuhai':'China',
-		'Wuhan':'China',
-		'Wuhu':'China',
-		'Wuwei':'China',
-		'Wuxi':'China',
-		'Wuzhong':'China',
-		'Wuzhou':'China',
-		'Xiamen':'China',
-		'Xiangtan':'China',
-		'Xiangyang':'China',
-		'Xianning':'China',
-		'Xianyang':'China',
-		'Xiaogan':'China',
-		'Xigazê':'China',
-		'Xingtai':'China',
-		'Xining':'China',
-		'Xinxiang':'China',
-		'Xinyang':'China',
-		'Xinyu':'China',
-		'Xinzhou':'China',
-		'Xuancheng':'China',
-		'Xuchang':'China',
-		'Xuzhou':'China',
-		'Yancheng':'China',
-		'Yangjiang':'China',
-		'Yangquan':'China',
-		'Yangzhou':'China',
-		'Yantai':'China',
-		'Yemen':'Asia',
-		'Yibin':'China',
-		'Yichang':'China',
-		'Yichun':'China',
-		'Yinchuan':'China',
-		'Yingkou':'China',
-		'Yingtan':'China',
-		'Yiyang':'China',
-		'Yongzhou':'China',
-		'Yueyang':'China',
-		'Yulin':'China',
-		'Yuncheng':'China',
-		'Yunfu':'China',
-		'Yunnan':'China',
-		'Yuxi':'China',
-		'Zambia':'Africa',
-		'Zaozhuang':'China',
-		'Zhangjiajie':'China',
-		'Zhangjiakou':'China',
-		'Zhangye':'China',
-		'Zhangzhou':'China',
-		'Zhanjiang':'China',
-		'Zhaoqing':'China',
-		'Zhaotong':'China',
-		'Zhejiang':'China',
-		'Zhengzhou':'China',
-		'Zhenjiang':'China',
-		'Zhongshan':'China',
-		'Zhongwei':'China',
-		'Zhoukou':'China',
-		'Zhoushan':'China',
-		'Zhuhai':'China',
-		'Zhumadian':'China',
-		'Zhuzhou':'China',
-		'Zibo':'China',
-		'Zigong':'China',
-		'Zimbabwe':'Africa',
-		'Ziyang':'China',
-		'Zunyi':'China',
-		'Ürümqi':'China',
-		'Bonaire, Saint Eustatius and Saba': 'America'
-	};
+	var locationsDefinition = [
+	"Africa", 
+	"America",  
+	"Japan", 	
+	"China", 
+	"Eastern Asia",	
+	"Europe", 	
+	"North America",
+	"Oceania", 
+	"Other",
+	"Western Asia"
+	];
 
-//variables
+	var countries = {
+"Afghanistan":"Eastern Asia",
+"Albania":"Europe",
+"Algeria":"Africa",
+"Andorra":"Europe",
+"Angola":"Africa",
+"Anguilla":"America",
+"Ankang":"China",
+"Anqing":"China",
+"Anshan":"China",
+"Anshun":"China",
+"Antigua and Barbuda":"America",
+"Antigua Barbuda":"America",
+"Antigua_and_Barbuda":"America",
+"Antigua_Barbuda":"America",
+"AntiguaBarbuda":"America",
+"Anyang":"China",
+"Argentina":"South America",
+"Armenia":"Europe",
+"Aruba":"America",
+"Australia":"Oceania",
+"Austria":"Europe",
+"Azerbaijan":"Europe",
+"Bahamas":"America",
+"Bahrain":"Eastern Asia",
+"Baicheng":"China",
+"Baise":"China",
+"Baishan":"China",
+"Baiyin":"China",
+"Bangladesh":"Western Asia",
+"Baoding":"China",
+"Baoji":"China",
+"Baoshan":"China",
+"Baotou":"China",
+"Barbados":"America",
+"Bayannur":"China",
+"Bazhong":"China",
+"Beihai":"China",
+"Beijing":"China",
+"Belarus":"Europe",
+"Belgium":"Europe",
+"Belize":"America",
+"Bengbu":"China",
+"Benin":"Africa",
+"Benxi":"China",
+"Bermuda":"America",
+"Bhutan":"Eastern Asia",
+"Bijie":"China",
+"Binzhou":"China",
+"Bolivia":"America",
+"Bonaire Saint Eustatius and Saba":"America",
+"Bonaire, Saint Eustatius and Saba":"America",
+"Bosnia and Herzegovina":"Europe",
+"Bosnia_and Herzegovina":"Europe",
+"Bosniaand Herzegovina":"Europe",
+"Botswana":"Africa",
+"Bozhou":"China",
+"Brazil":"South America",
+"British Virgin Islands":"America",
+"British_Virgin Islands":"America",
+"BritishVirgin Islands":"America",
+"Brunei Darussalam":"Eastern Asia",
+"Brunei":"Eastern Asia",
+"Brunei_Darussalam":"Eastern Asia",
+"BruneiDarussalam":"Eastern Asia",
+"Bulgaria":"Europe",
+"Burkina Faso":"Africa",
+"Burkina_Faso":"Africa",
+"BurkinaFaso":"Africa",
+"Burundi":"Africa",
+"Cambodia":"Eastern Asia",
+"Cameroon":"Africa",
+"Canada":"North America",
+"Cangzhou":"China",
+"Cape Verde":"Africa",
+"Cape_Verde":"Africa",
+"CapeVerde":"Africa",
+"Cases on an international conveyance Japan":"Other",
+"Cayman Islands":"America",
+"Cayman_Islands":"America",
+"CaymanIslands":"America",
+"Central_African_Republic":"Africa",
+"Chad":"Africa",
+"Changchun":"China",
+"Changde":"China",
+"Changsha":"China",
+"Changzhi":"China",
+"Changzhou":"China",
+"Chaohu":"China",
+"Chaoyang":"China",
+"Chaozhou":"China",
+"Chengde":"China",
+"Chengdu":"China",
+"Chenzhou":"China",
+"Chifeng":"China",
+"Chile":"South America",
+"China":"China",
+"Chizhou":"China",
+"Chongqing":"China",
+"Chongzuo":"China",
+"Chuzhou":"China",
+"Colombia":"South America",
+"Comoros":"Africa",
+"Congo":"Africa",
+"Costa Rica":"North America",
+"Costa_Rica":"North America",
+"CostaRica":"America",
+"Cote_dIvoire":"Africa",
+"Croatia":"Europe",
+"CruiseA":"America",
+"Cuba":"America",
+"CuraÃ§ao":"America",
+"Cyprus":"Europe",
+"Czech Republic":"Europe",
+"Czech_Republic":"Europe",
+"Czechia":"Europe",
+"CzechRepublic":"Europe",
+"Dalian":"China",
+"Dandong":"China",
+"Danzhou":"China",
+"Daqing":"China",
+"Datong":"China",
+"Dazhou":"China",
+"Democratic_Republic_of_the_Congo":"Africa",
+"Denmark":"Europe",
+"Deyang":"China",
+"Dezhou":"China",
+"Dingxi":"China",
+"Djibouti":"Africa",
+"Dominica":"America",
+"Dominican Republic":"America",
+"Dominican_Republic":"America",
+"DominicanRepublic":"America",
+"Dongchuan":"China",
+"Dongguan":"China",
+"Dongying":"China",
+"DP":"Japan",
+"DRC":"Africa",
+"Ecuador":"America",
+"Egypt":"Africa",
+"El Salvador":"America",
+"El_Salvador":"America",
+"ElSalvador":"America",
+"England":"Europe",
+"Equatorial Guinea":"Africa",
+"Equatorial_Guinea":"Africa",
+"EquatorialGuinea":"Africa",
+"Eritrea":"Africa",
+"Estonia":"Europe",
+"Eswatini":"Africa",
+"Ethiopia":"Africa",
+"Ezhou":"China",
+"Falkland Islands (Malvinas)":"America",
+"FalklIslands (Malvinas)":"America",
+"Fangchenggang":"China",
+"Faroe Islands":"Europe",
+"Faroe_Islands":"Europe",
+"FaroeIslands":"Europe",
+"Fiji":"Oceania",
+"Finland":"Europe",
+"Foshan":"China",
+"France":"Europe",
+"French Polynesia":"Oceania",
+"French_Polynesia":"Oceania",
+"FrenchPolynesia":"Oceania",
+"Fujian":"China",
+"Fuling":"China",
+"Fushun":"China",
+"Fuxin":"China",
+"Fuyang":"China",
+"Fuzhou":"China",
+"Gabon":"Africa",
+"Gambia":"Africa",
+"Ganzhou":"China",
+"Georgia":"Western Asia",
+"Germany":"Europe",
+"Ghana":"Africa",
+"Gibraltar":"Europe",
+"Gongzhuling":"China",
+"Greece":"Europe",
+"Greenland":"America",
+"Grenada":"America",
+"Guam":"Oceania",
+"Guangdong":"China",
+"Guangyuan":"China",
+"Guangzhou":"China",
+"Guatemala":"America",
+"Guernsey":"Europe",
+"Guigang":"China",
+"Guilin":"China",
+"Guinea Bissau":"Africa",
+"Guinea":"Africa",
+"Guinea_Bissau":"Africa",
+"GuineaBissau":"Africa",
+"Guiyang":"China",
+"Guyana":"America",
+"Guyuan":"China",
+"Haidong":"China",
+"Haikou":"China",
+"Haiti":"America",
+"Hami":"China",
+"Handan":"China",
+"Hangzhou":"China",
+"Hanzhong":"China",
+"Harbin":"China",
+"Hebi":"China",
+"Hechi":"China",
+"Hefei":"China",
+"Hegang":"China",
+"Heihe":"China",
+"Hengshui":"China",
+"Hengyang":"China",
+"Heyuan":"China",
+"Heze":"China",
+"Hezhou":"China",
+"Hohhot":"China",
+"Holy See":"Europe",
+"Holy_See":"Europe",
+"HolySee":"Europe",
+"Honduras":"America",
+"Hong Kong":"Eastern Asia",
+"Hong_Kong":"Eastern Asia",
+"Huaibei":"China",
+"Huaihua":"China",
+"Huainan":"China",
+"Huanggang":"China",
+"Huangshan":"China",
+"Huangshi":"China",
+"Huizhou":"China",
+"Huludao":"China",
+"Hulunbuir":"China",
+"Hungary":"Europe",
+"Huzhou":"China",
+"Iceland":"Europe",
+"India":"Western Asia",
+"Indonesia":"Eastern Asia",
+"Iran":"Western Asia",
+"Iraq":"Eastern Asia",
+"Ireland":"Europe",
+"Isle of Man":"Europe",
+"Isle_of_Man":"Europe",
+"IsleMan":"Europe",
+"Israel":"Western Asia",
+"Italy":"Europe",
+"Jamaica":"America",
+"Japan":"Japan",
+"Jersey":"Europe",
+"Jiamusi":"China",
+"Jian":"China",
+"Jiangmen":"China",
+"Jiangxi":"China",
+"Jiaozuo":"China",
+"Jiaxing":"China",
+"Jiayuguan":"China",
+"Jieyang":"China",
+"Jilin":"China",
+"Jinan":"China",
+"Jinchang":"China",
+"Jincheng":"China",
+"Jingdezhen":"China",
+"Jingmen":"China",
+"Jingzhou":"China",
+"Jinhua":"China",
+"Jining":"China",
+"Jinzhong":"China",
+"Jinzhou":"China",
+"Jiujiang":"China",
+"Jiuquan":"China",
+"Jixi":"China",
+"Jordan":"Western Asia",
+"Kaifeng":"China",
+"Karamay":"China",
+"Kazakhstan":"Western Asia",
+"Kenya":"Africa",
+"Korea":"Eastern Asia",
+"Kosovo":"Europe",
+"Kunming":"China",
+"Kuwait":"Western Asia",
+"Kyrgyzstan":"Eastern Asia",
+"Laibin":"China",
+"Laiwu":"China",
+"Langfang":"China",
+"Lanzhou":"China",
+"Laos":"Eastern Asia",
+"Latvia":"Europe",
+"Lebanon":"Western Asia",
+"Leshan":"China",
+"Lesotho":"Africa",
+"Lhasa":"China",
+"Lianyungang":"China",
+"Liaocheng":"China",
+"Liaoyang":"China",
+"Liaoyuan":"China",
+"Liberia":"Africa",
+"Libya":"Africa",
+"Liechtenstein":"Europe",
+"Lijiang":"China",
+"Lincang":"China",
+"Linfen":"China",
+"Linyi":"China",
+"Lishui":"China",
+"Lithuania":"Europe",
+"Liupanshui":"China",
+"Liuzhou":"China",
+"Longnan":"China",
+"Longyan":"China",
+"Loudi":"China",
+"Luohe":"China",
+"Luoyang":"China",
+"Luxembourg":"Europe",
+"Luzhou":"China",
+"Lüliang":"China",
+"Madagascar":"Africa",
+"Malawi":"Africa",
+"Malaysia":"Eastern Asia",
+"Maldives":"Eastern Asia",
+"Mali":"Africa",
+"Malta":"Europe",
+"Maoming":"China",
+"Mauritania":"Africa",
+"Mauritius":"Africa",
+"Meihekou":"China",
+"Meishan":"China",
+"Meizhou":"China",
+"Mexico":"America",
+"Mianyang":"China",
+"Moldova":"Europe",
+"Monaco":"Europe",
+"Mongolia":"Eastern Asia",
+"Montenegro":"Europe",
+"Montserrat":"America",
+"Morocco":"Africa",
+"Mozambique":"Africa",
+"Mudanjiang":"China",
+"Myanmar":"Eastern Asia",
+"Nagqu":"China",
+"Namibia":"Africa",
+"Nanchang":"China",
+"NanChang":"China",
+"Nanchong":"China",
+"Nanjing":"China",
+"Nanning":"China",
+"Nanping":"China",
+"Nantong":"China",
+"Nanyang":"China",
+"Neijiang":"China",
+"Nepal":"Western Asia",
+"Netherlands":"Europe",
+"New Caledonia":"Oceania",
+"New Zealand":"Oceania",
+"New_Caledonia":"Oceania",
+"New_Zealand":"Oceania",
+"NewCaledonia":"Oceania",
+"NewZealand":"Oceania",
+"Nicaragua":"America",
+"Niger":"Africa",
+"Nigeria":"Africa",
+"Ningbo":"China",
+"Ningde":"China",
+"North Macedonia":"Europe",
+"North_Macedonia":"Europe",
+"Northern Mariana Islands":"Oceania",
+"Northern_Mariana Islands":"Oceania",
+"NorthernMariana Islands":"Oceania",
+"NorthMacedonia":"Europe",
+"Norway":"Europe",
+"Nyingchi":"China",
+"Oman":"Western Asia",
+"Ordos":"China",
+"Pakistan":"Western Asia",
+"Palestine":"Eastern Asia",
+"Panama":"America",
+"Panjin":"China",
+"Panzhihua":"China",
+"Papua New Guinea":"Oceania",
+"Papua_New Guinea":"Oceania",
+"PapuaNew Guinea":"Oceania",
+"Paraguay":"America",
+"Peru":"South America",
+"Philippines":"Eastern Asia",
+"Pingdingshan":"China",
+"Pingliang":"China",
+"Pingxiang":"China",
+"Poland":"Europe",
+"Portugal":"Europe",
+"Puerto Rico":"America",
+"Puerto_Rico":"America",
+"PuertoRico":"America",
+"Putian":"China",
+"Puyang":"China",
+"Qamdo":"China",
+"Qatar":"Eastern Asia",
+"Qingdao":"China",
+"Qingyang":"China",
+"Qingyuan":"China",
+"Qinhuangdao":"China",
+"Qinzhou":"China",
+"Qiqihar":"China",
+"Qitaihe":"China",
+"Quanzhou":"China",
+"Qujing":"China",
+"Quzhou":"China",
+"Rizhao":"China",
+"Romania":"Europe",
+"Russia":"Europe",
+"Rwanda":"Africa",
+"Saint Kitts and Nevis":"America",
+"Saint Lucia":"America",
+"Saint Vincent and the Grenadines":"America",
+"Saint_Kitts and Nevis":"America",
+"Saint_Lucia":"America",
+"Saint_Vincent and the Grenadines":"America",
+"SaintKitts and Nevis":"America",
+"SaintLucia":"America",
+"SaintVincent and the Grenadines":"America",
+"San Marino":"Europe",
+"San_Marino":"Europe",
+"SanMarino":"Europe",
+"Sanmenxia":"China",
+"Sanming":"China",
+"Sansha":"China",
+"Sanya":"China",
+"Sao Tome and Principe":"Africa",
+"Sao_Tome and Principe":"Africa",
+"SaoTome and Principe":"Africa",
+"Saudi Arabia":"Western Asia",
+"Saudi_Arabia":"Western Asia",
+"SaudiArabia":"Western Asia",
+"Scotland":"Europe",
+"Senegal":"Africa",
+"Serbia":"Europe",
+"Seychelles":"Africa",
+"Shandong":"China",
+"Shanghai":"China",
+"Shangluo":"China",
+"Shangqiu":"China",
+"Shangrao":"China",
+"Shannan":"China",
+"Shantou":"China",
+"Shanwei":"China",
+"Shaoguan":"China",
+"Shaoxing":"China",
+"Shaoyang":"China",
+"Shashi":"China",
+"Shenyang":"China",
+"Shenzhen":"China",
+"Shijiazhuang":"China",
+"Shiyan":"China",
+"Shizuishan":"China",
+"Shuangyashan":"China",
+"Shuozhou":"China",
+"Sichuan":"China",
+"Sierra Leone":"Africa",
+"Sierra_Leone":"Africa",
+"SierraLeone":"Africa",
+"Singapore":"Eastern Asia",
+"Sint Maarten":"America",
+"Sint_Maarten":"America",
+"SintMaarten":"America",
+"Siping":"China",
+"Slovakia":"Europe",
+"Slovenia":"Europe",
+"Somalia":"Africa",
+"Songyuan":"China",
+"South Africa":"Africa",
+"South Sudan":"Africa",
+"South_Africa":"Africa",
+"South_Korea":"Eastern Asia",
+"South_Sudan":"Africa",
+"SouthAfrica":"Africa",
+"SouthSudan":"Africa",
+"Spain":"Europe",
+"Sri Lanka":"Western Asia",
+"Sri_Lanka":"Western Asia",
+"Sudan":"Africa",
+"Suihua":"China",
+"Suining":"China",
+"Suizhou":"China",
+"Suqian":"China",
+"Suriname":"America",
+"Suzhou":"China",
+"Sweden":"Europe",
+"Switzerland":"Europe",
+"Syria":"Eastern Asia",
+"Taiwan":"Eastern Asia",
+"Taiyuan":"China",
+"Taizhou":"China",
+"Tajikistan":"Eastern Asia",
+"Tangshan":"China",
+"Thailand":"Eastern Asia",
+"Tianjin":"China",
+"Tianshui":"China",
+"Tieling":"China",
+"Timor Leste":"Eastern Asia",
+"Timor_Leste":"Eastern Asia",
+"TimorLeste":"Eastern Asia",
+"Togo":"Africa",
+"Tongchuan":"China",
+"Tonghua":"China",
+"Tongliao":"China",
+"Tongling":"China",
+"Tongren":"China",
+"Trinidad and Tobago":"America",
+"Trinidad_and Tobago":"America",
+"Trinidadand Tobago":"America",
+"Tunisia":"Africa",
+"Turkey":"Eastern Asia",
+"Turks and Caicos islands":"America",
+"Turks_and Caicos islands":"America",
+"Turksand Caicos islands":"America",
+"Turpan":"China",
+"Uganda":"Africa",
+"Ukraine":"Europe",
+"Ulanqab":"China",
+"United Arab Emirates":"Western Asia",
+"United Kingdom":"Europe",
+"United Republic of Tanzania":"Africa",
+"United States of America":"America",
+"United States Virgin Islands":"America",
+"United_Arab_Emirates":"Western Asia",
+"United_Kingdom":"Europe",
+"United_Republic of Tanzania":"Africa",
+"United_States of America":"America",
+"United_States Virgin Islands":"America",
+"UnitedKingdom":"Europe",
+"UnitedRepublic of Tanzania":"Africa",
+"UnitedStates of America":"America",
+"UnitedStates Virgin Islands":"America",
+"Uruguay":"America",
+"USA":"America",
+"Uzbekistan":"Eastern Asia",
+"Venezuela":"America",
+"Vietnam":"Eastern Asia",
+"Viet_Nam":"Eastern Asia",
+"Wales":"Europe",
+"Wanxian":"China",
+"Weifang":"China",
+"Weihai":"China",
+"Weinan":"China",
+"Wenzhou":"China",
+"Western Sahara":"Africa",
+"Western_Sahara":"Africa",
+"WesternSahara":"Africa",
+"Wuhai":"China",
+"Wuhan":"China",
+"Wuhu":"China",
+"Wuwei":"China",
+"Wuxi":"China",
+"Wuzhong":"China",
+"Wuzhou":"China",
+"Xiamen":"China",
+"Xiangtan":"China",
+"Xiangyang":"China",
+"Xianning":"China",
+"Xianyang":"China",
+"Xiaogan":"China",
+"Xigazê":"China",
+"Xingtai":"China",
+"Xining":"China",
+"Xinxiang":"China",
+"Xinyang":"China",
+"Xinyu":"China",
+"Xinzhou":"China",
+"Xuancheng":"China",
+"Xuchang":"China",
+"Xuzhou":"China",
+"Yancheng":"China",
+"Yangjiang":"China",
+"Yangquan":"China",
+"Yangzhou":"China",
+"Yantai":"China",
+"Yemen":"Eastern Asia",
+"Yibin":"China",
+"Yichang":"China",
+"Yichun":"China",
+"Yinchuan":"China",
+"Yingkou":"China",
+"Yingtan":"China",
+"Yiyang":"China",
+"Yongzhou":"China",
+"Yueyang":"China",
+"Yulin":"China",
+"Yuncheng":"China",
+"Yunfu":"China",
+"Yunnan":"China",
+"Yuxi":"China",
+"Zambia":"Africa",
+"Zaozhuang":"China",
+"Zhangjiajie":"China",
+"Zhangjiakou":"China",
+"Zhangye":"China",
+"Zhangzhou":"China",
+"Zhanjiang":"China",
+"Zhaoqing":"China",
+"Zhaotong":"China",
+"Zhejiang":"China",
+"Zhengzhou":"China",
+"Zhenjiang":"China",
+"Zhongshan":"China",
+"Zhongwei":"China",
+"Zhoukou":"China",
+"Zhoushan":"China",
+"Zhuhai":"China",
+"Zhumadian":"China",
+"Zhuzhou":"China",
+"Zibo":"China",
+"Zigong":"China",
+"Zimbabwe":"Africa",
+"Ziyang":"China",
+"Zunyi":"China",
+"Ürümqi":"China"
+	};
 
 function graphshow(jsondata, decayset) {
 
@@ -1161,36 +1201,60 @@ function graphshow(jsondata, decayset) {
 
 				//location count
 				if(d.blank == 0){
+
 					var nodedata = {
-						ident: (!(d.identical_name) ? ["NA"] : (d.identical_name.split(',')) ),
-						coldat: (!(d.collection_date) ? ["NA"] : (d.collection_date.split(',')) ),
-						locat: (!(d.location) ? ["NA"] : (d.location.split(',')) )
+						ident: (!(d.identical_name) ? ["Undefined"] : (d.identical_name.replace(/[\\^$.*+?()[\]{}|]/g, '\\$&').split(',')) ),
+						coldat: (!(d.collection_date) ? ["Undefined"] : (d.collection_date.replace(/[\\^$.*+?()[\]{}|]/g, '\\$&').split(',')) ),
+						locat: (!(d.location) ? ["Undefined"] : (d.location.replace(/[\\^$.*+?()[\]{}|]/g, '\\$&').split(',')) )
 					}
+
+					// make list for writing loation counts
 					var locationCounts = []; //initialize counter
 					for (var i = 0; i < locationsDefinition.length; i++){
 						locationCounts.push(0);
 					}
-					for (var i = 0; i < (nodedata.ident).length; i++){
-						for (var j = 0; j < locationsDefinition.length; j++){
-							// console.log(nodedata.ident[i]);
-							for (key in countries) {
-								if((nodedata.locat[i]).indexOf(key) >= 0){nodedata.locat[i] = countries[key];}
-							}
-							if(nodedata.locat[i].indexOf(locationsDefinition[j]) >= 0){
-								locationCounts[j]++;
+
+					// simplify country to region
+					for (var i in nodedata.locat){	
+						for (var key in countries) { //marumeru
+							// console.log(nodedata.locat[i]);								
+							if((nodedata.locat[i]).indexOf(key) != -1) {
+								nodedata.locat[i] = countries[key];
 							}
 						}
 					}
-				//location count
 
-				//initial pie chart
-					var pieChart = []
+					// count region
+					for (var i in nodedata.locat) {
+						for (var j in locationsDefinition) {
+							// console.log(nodedata.ident[i]);
+							if (nodedata.locat[i].indexOf(locationsDefinition[j]) != -1){
+								locationCounts[j]++; //count
+							}
+						}
+					}
+
+					//count region
+					// for (var i = 0; i < (nodedata.locat).length; i++) {
+					// 	console.log(i);
+					// 	for (var j = 0; j < locationsDefinition.length; j++){
+					// 		// console.log(nodedata.ident[i]);
+					// 		if(nodedata.locat[i].search(locationsDefinition[j]) != -1){
+					// 			locationCounts[j]++; //count
+					// 			// console.log(locationCounts[j]);
+					// 		}
+					// 	}
+					// }
+					//location count
+
+					//initial pie chart
+					var pieChart = [];
 					for(i = 0; i < locationsDefinition.length; i++){
-						pieChart.push({"color": i, "percent": locationCounts[i]*100/(nodedata.ident).length})
+						pieChart.push({"color": i, "percent": locationCounts[i]*100/(nodedata.ident).length});
 					}
 					// console.log(pieChart);
 					NodePieBuilder.drawNodePie(d3.select(this), pieChart, {
-						radius: ((nodedata.ident).length)+5,
+						radius: 10*(Math.log((nodedata.ident).length + 1))**1.8 + 3,
 						parentNodeColor: "#999",
 						outerStrokeWidth: 4,
 						showLabelText: false
@@ -1214,7 +1278,7 @@ function graphshow(jsondata, decayset) {
 		.on("input", inputtedcollision);	
 
 	function inputteddistance() {
-		simulation.force("links").distance(+this.value);
+		simulation.force("links").distance(d => d.SNV * (+this.value));	
 		simulation.alpha(1).restart();
 	}
 	function inputtedforce() {
@@ -1228,7 +1292,7 @@ function graphshow(jsondata, decayset) {
 
 	//zoom capabilities
 	var zoom_handler = d3.zoom()
-							.scaleExtent([1 / 9, 20])
+							.scaleExtent([1/30, 20])
 							.on("zoom", zoom_actions);
 	zoom_handler(svg); 
 	//zoom capabilities
@@ -1238,17 +1302,17 @@ function graphshow(jsondata, decayset) {
 						.nodes(jsondata.elements.nodes);
 	var link_force =  d3.forceLink(jsondata.elements.edges)
 						.strength(0.9)
-						.distance(200)
+						.distance(d => d.SNV * 300)
 						.iterations(5000)
 						.id(d => d.name);		 
-	var charge_force = d3.forceManyBody().strength(-3000);
+	var charge_force = d3.forceManyBody().strength(-5000);
 	var center_force = d3.forceCenter(w / 2, h / 2);  
 
 	simulation
 		.force("charge_force", charge_force)
 		.force("center_force", center_force)
 		.force("links",link_force)
-		.force("collide", d3.forceCollide().radius(locationsDefinition.length + 1).iterations(5))
+		.force("collide", d3.forceCollide().radius(9*(Math.log(locationsDefinition.length + 1))**1.8 + 2).iterations(0))
 		.alphaDecay(decayset);
 	//force simulation
 
@@ -1275,15 +1339,15 @@ function graphshow(jsondata, decayset) {
 
 	// Drag functions 
 	function drag_start(d) {
-		if (!d3.event.active) simulation.alphaTarget(1).restart();
+		if (!d3.event.active) simulation.alphaTarget(0.01).restart();
 			 d.fx = d.x;
 			 d.fy = d.y;
 	}
 
-	//make sure you can't drag the circle outside the box
 	function drag_drag(d) {
-		d.fx = d3.event.x;
-		d.fy = d3.event.y;
+		if (!d3.event.active) simulation.alphaTarget(0.1).restart();
+			d.fx = d3.event.x;
+			d.fy = d3.event.y;
 	}
 
 	function drag_end(d) {
@@ -1315,15 +1379,13 @@ function graphshow(jsondata, decayset) {
 // 				.remove();
 // }
 
-
 function searchNode() {
 
-	//initialize: set all edges and nodes opacity to 1.
-	link
-		.style("opacity", 1);
 	node
-		.style("opacity", 1);
-	//initialize: set all edges and nodes opacity to 1.
+		.selectAll("circle")
+		.remove();
+	link.selectAll("line")
+		.remove();
 
 	//find the node
 	var gisaid = document.getElementById('gisaid').value;
@@ -1345,8 +1407,8 @@ function searchNode() {
 	} else {
 		if (gisaid == "") {gisaid = ".*";}
 		if (location == "") {location = ".*";}
-		if (fromdate == "") {fromdate = 0;}
-		if (todate == "") {todate = 99999999;}		
+		if (fromdate == "") {fromdate = "19000101";}
+		if (todate == "") {todate = "20301231";}		
 		link
 			.style("stroke-opacity", 0.9) 
 			.style("stroke-width", 4)
@@ -1354,12 +1416,6 @@ function searchNode() {
 		node
 			.selectAll("circle")
 			.attr("visibility","hidden");
-	//	 	.style("opacity", function(d){
-				// var colday = (!(d.collection_date) ? ["NA"] : (d.collection_date.split(',')) );
-				// var colday2 = colday.filter(function(s){return s !== "NA";});
-				// var conc = colday2.length;
-				// return 0.5;
-	//	 	})
 		node
 			.insert("g")
 			.each(function(d){
@@ -1367,9 +1423,9 @@ function searchNode() {
 				//location count
 				if(d.location != undefined){
 					var nodedata = {
-						ident: (!(d.identical_name) ? ["NA"] : (d.identical_name.split(',')) ),
-						coldat: (!(d.collection_date) ? ["NA"] : (d.collection_date.split(',')) ),
-						locat: (!(d.location) ? ["NA"] : (d.location.split(',')) )
+						ident: (!(d.identical_name) ? ["Undefined"] : (d.identical_name.split(',')) ),
+						coldat: (!(d.collection_date) ? ["Undefined"] : (d.collection_date.split(',')) ),
+						locat: (!(d.location) ? ["Undefined"] : (d.location.split(',')) )
 					}
 					var locationCounts = []; //initialize counter
 					for (var i = 0; i < locationsDefinition.length; i++){
@@ -1394,13 +1450,12 @@ function searchNode() {
 				// resizing and recalc pie chart using collection size
 				//resize					
 				if (d.blank == 0){
-					var colday = (!(d.collection_date) ? ["NA"] : (d.collection_date.split(',')) );
-					var colday2 = colday.filter(function(s){return s !== "NA";});
+					var colday = (!(d.collection_date) ? ["Undefined"] : (d.collection_date.split(',')) );
+					var colday2 = colday.filter(function(s){return s !== "Undefined";});
 					var colday3 = colday2.filter(function(s){return ((s >= fromdate ) && (s <= todate));});
 					var conc = colday3.length;
 				//resize
 
-				//var locationsDefinition = ["Africa", "America", "Asia", "China", "Japan", "Europe", "Oceania", "Other"];
 				//recalc pie chart
 					//count each location
 					var pieChart = []
@@ -1409,7 +1464,7 @@ function searchNode() {
 					}
 					// console.log(pieChart);
 					NodePieBuilder.drawNodePie(d3.select(this), pieChart, {
-						radius: conc+5,
+						radius: 10*(Math.log(conc + 1))**1.8 + 3,
 						parentNodeColor: "#999",
 						outerStrokeWidth: 4,
 						showLabelText: false
@@ -1419,8 +1474,8 @@ function searchNode() {
 				// resizing and recalc pie chart using collection size
 			})
 			.attr("visibility", function(d){
-				var colday = (!(d.collection_date) ? ["NA"] : (d.collection_date.split(',')) );
-				var colday2 = colday.filter(function(s){return s !== "NA";});
+				var colday = (!(d.collection_date) ? ["Undefined"] : (d.collection_date.split(',')) );
+				var colday2 = colday.filter(function(s){return s !== "Undefined";});
 				var conc = colday2.length;
 				// console.log(conc);
 				// console.log(Math.max.apply(null, colday2));
@@ -1451,9 +1506,9 @@ function filterOFF() {
 				//location count
 				if(d.blank == 0){
 					var nodedata = {
-						ident: (!(d.identical_name) ? ["NA"] : (d.identical_name.split(',')) ),
-						coldat: (!(d.collection_date) ? ["NA"] : (d.collection_date.split(',')) ),
-						locat: (!(d.location) ? ["NA"] : (d.location.split(',')) )
+						ident: (!(d.identical_name) ? ["Undefined"] : (d.identical_name.split(',')) ),
+						coldat: (!(d.collection_date) ? ["Undefined"] : (d.collection_date.split(',')) ),
+						locat: (!(d.location) ? ["Undefined"] : (d.location.split(',')) )
 					}
 					var locationCounts = []; //initialize counter
 					for (var i = 0; i < locationsDefinition.length; i++){
@@ -1479,7 +1534,7 @@ function filterOFF() {
 					}
 					// console.log(pieChart);
 					NodePieBuilder.drawNodePie(d3.select(this), pieChart, {
-						radius: ((nodedata.ident).length)+5,
+						radius: 10*(Math.log((nodedata.ident).length + 1))**1.8 + 3,
 						parentNodeColor: "#999",
 						outerStrokeWidth: 4,
 						showLabelText: false
@@ -1495,57 +1550,70 @@ function filterOFF() {
 function expdata(jsondata) {
 	var jsonstring = JSON.stringify(jsondata, null, 4);
 	var jsonarray = jsonstring.split('\n');
-	var jsonparsedarray = []
+	var jsonparsedarray = [];
+	var afteredge = 0;
+	var sourcedata = "Undefined";
+	var sourceid = "Undefined";
+	var targetdata = "Undefined";
+	var targetid = "Undefined";
+	var snvdata = 0;
+	var snv = 0;
 
 	for (var i = 0; i < jsonarray.length; i++){
 
-		if (jsonarray[i] == "        \"edges\": [") {
-			jsonparsedarray.push(jsonarray[i] + '\n');
-			i += 1; //skip next { and start with the first source
-			continue;
-		}
+		// if (jsonarray[i].search(/\"SNV\":/) != -1) {
+		// 	console.log(jsonarray[i]);				
+		// }
 
-		if (jsonarray[i] == "                \"source\": {"){ //make source data
-			sourcedata = jsonarray[i+1].split('\"'); // split by "
-			sourceid = sourcedata[3];
-			// console.log(sourceid); // source id = 3rd of the split data
-			// console.log(jsonarray[i]);
-			// jsonparsedarray.push(jsonarray[i]);
-			i += 12; //skip from name to the next of vy
-			if (jsonarray[i].search(/.*\"fx\":.*/) != -1) {
-				i += 2; 			// if fx fy is inserted, index should be slided
+		//extract EDGE data
+		if (afteredge == 1) {
+
+			if (jsonarray[i].search(/\"source\":/) != -1){ //make source data
+				sourcedata = jsonarray[i+1].split(':'); // split by :
+				sourceid = sourcedata[1].slice(0,-1);
 			}
-			continue;
+
+			if (jsonarray[i].search(/\"target\":/) != -1) {	//make target data
+				targetdata = jsonarray[i+1].split(':'); // split by :
+				targetid = targetdata[1].slice(0,-1); //remove comma
+			}
+
+			if (jsonarray[i].search(/\"SNV\":/) != -1){ //make source data
+				snvdata = jsonarray[i].split(':'); // split by :
+				snv = snvdata[1].slice(0,-1);
+
+				//outout the result source and target
+				jsonparsedarray.push("            {\"source\":" + String(sourceid) + ", " + "\"target\":" + String(targetid) + ", \"SNV\":" + String(snv) + "},\n");
+				//here, coordinate is already determined so that SNV value is not used for determine node distances
+			}
+
 		}
 
-		if (jsonarray[i] == "                \"target\": {"){ //make target data
+		else if (afteredge == 0) {
 
-			targetdata = jsonarray[i+1].split('\"'); // split by "
-			targetid = targetdata[3];
+			// add current line (before "edge")
+			if (jsonarray[i].search(/.*\"edges\":.*/) != -1) {
+				jsonparsedarray.push(jsonarray[i] + '\n');
+				afteredge = 1;
+			}
 
-			if (jsonarray[i+15].search(/.*\]/) != -1 || jsonarray[i+17].search(/.*\]/) != -1) { //the case of the last entry, close [] and {} is need
-				jsonparsedarray.push("            {\"source\":" + String(sourceid) + ", " + "\"target\":" + String(targetid) + '}\n        ]\n    }\n}\n');	
-				break;
-			}				
 			else {
-				jsonparsedarray.push("            {\"source\":" + String(sourceid) + ", " + "\"target\":" + String(targetid) + '},\n');				
-				//move current line
-				i += 12; //fx or ,}
-				if (jsonarray[i].search(/.*\"fx\":.*/) != -1) {
-						i += 5; 			// if fx fy is inserted, index should be slided
-					} // jump from target.fx to next source
-				else {
-					i += 3;
-				} //from vx to next source
-			continue;				
+				jsonparsedarray.push(jsonarray[i] + '\n');
 			}
 		}
-		jsonparsedarray.push(jsonarray[i] + '\n'); // add current line or modified line into jsonparsedarray, which is output as txt
+
+		else {
+			console.log("exception. after edge = not 0 or 1")
+		}
+
 	}
-	// for (var i = 1000; i < 3000; i++){	
-	// 	console.log(jsonparsedarray[i]);
-	// }
+
+	//the case of the last entry, trimming of a comma and closing ] is need.
+	jsonparsedarray[jsonparsedarray.length - 1] = jsonparsedarray[jsonparsedarray.length - 1].slice(0,-2) + '\n';
+	jsonparsedarray.push('        ]\n    }\n}\n');	
+
 	jsonparsedarray = jsonparsedarray.join('');
+    // var filedata = new Blob([ jsonstring ], { "type" : "text/plain" });
     var filedata = new Blob([ jsonparsedarray ], { "type" : "text/plain" });
 	var filelink = document.createElement('a');
     filelink.href = window.URL.createObjectURL(filedata);
@@ -1565,11 +1633,194 @@ function importdata() {
 	// console.log(importedjson);
 
 }
-//Import data
+
+async function makeMovie(){
+
+	//set values
+	var gisaid = document.getElementById('gisaid').value;
+	var location = document.getElementById('location').value;
+	var fromdate = document.getElementById('fromdate').value;
+	var todate = document.getElementById('todate').value;
+	var moviefromdate = document.getElementById('moviefromdate').value;
+	var movietodate = document.getElementById('movietodate').value;
+	var movieinterval = document.getElementById('movieinterval').value;
+	var dates = dateCalc(moviefromdate, movietodate);
+	var datelength = dates.length;
+	var image = [];
+	var canvas = [];
+	var canvascontent = [];
+	var a = [];
+	
+	node.selectAll("g")
+		.attr("visibility", "hidden");
+
+	// output nodes
+	for (var i = 0; i < dates.length; i += parseInt(movieinterval)){
+
+		// rebuilt figure
+		await rebuiltnetwork(gisaid, location, moviefromdate, dates[i]);
+
+		// get svg and convert to string
+		var svg = document.getElementById('svggraph');
+		var	svgData = new XMLSerializer().serializeToString(svg);	
+		// console.log("svg" + svgData);
+
+		canvas = document.createElement('canvas');			
+		canvas.width = svg.width.baseVal.value *2;
+		canvas.height = svg.height.baseVal.value *2;
+
+		canvascontent = canvas.getContext('2d');
+		canvascontent.scale(2, 2);
+
+		// make image URI and download
+		image = new Image();
+		image.onload = await endfunc(image, dates[i], canvas, canvascontent, datelength, a[i]);
+		image.src = 'data:image/svg+xml;charset=utf-8;base64,' + btoa(svgData);		
+		// console.log("src end i = " + String(i));
+	}
+}
+
+async function endfunc(image, todate, canvas, canvascontent, datelength, a){
+
+	return async function(){
+		a = document.createElement("a");
+
+		const drawimages = new Promise(resolve => {
+			resolve(canvascontent.drawImage(image, 0, 0, image.width, image.height));
+		});
+
+		const makehref = new Promise(resolve => {		
+			a.href = canvas.toDataURL();
+			resolve();			
+		});
+
+		const makedownload = new Promise(resolve => {		
+			a.setAttribute("download", String(todate) + ".png");		
+			resolve(a.dispatchEvent(new MouseEvent("click")));	
+		});
+
+		await drawimages;
+		await makehref;
+		await makedownload;
+	}
+}
+
+function dateCalc(fromdate, todate){
+
+	// date define
+	var dates = [];
+	if (fromdate == "") {
+		fromdate = moment("20140101","YYYYMMDD").startOf('day');
+	} else {
+		fromdate = moment(fromdate,"YYYYMMDD").startOf('day');
+	}
+
+	if (todate == "") {
+		todate = moment("20160701","YYYYMMDD").startOf('day');
+	} else {
+		todate = moment(todate,"YYYYMMDD").startOf('day');	
+	}
+
+	// diff
+	var datedif = todate.diff(fromdate, 'days');
+
+	// make days array
+	dates = [];
+	for (var i = 0; i <= datedif; i++){
+		dates[i] = fromdate.clone().add(i, 'days').format("YYYYMMDD");
+	}
+	
+	return dates;
+}
+
+
+async function rebuiltnetwork(gisaid, location, fromdate, todate){
+
+	const build = new Promise (resolve => {
+		if (fromdate == "") {fromdate = "20140101";}
+
+		node
+			.selectAll("circle")
+			.remove();
+
+		node
+			.insert("g")
+			.each(function(d){
+
+				var nodedata = {
+					ident: (!(d.identical_name) ? ["Undefined"] : (d.identical_name.split(',')) ),
+					coldat: (!(d.collection_date) ? ["Undefined"] : (d.collection_date.split(',')) ),
+					locat: (!(d.location) ? ["Undefined"] : (d.location.split(',')) )
+				}
+				var colday = (!(d.collection_date) ? ["Undefined"] : (d.collection_date.split(',')) );
+				var colday2 = colday.filter(function(s){return s !== "Undefined";});
+				var colday3 = colday2.filter(function(s){return ((s >= fromdate ) && (s <= todate));});
+				var conc = colday3.length;
+
+				//location count
+				if(d.location != undefined){
+
+					// initialize region counter from 0
+					var locationCounts = [];
+					for (var i = 0; i < locationsDefinition.length; i++){
+						locationCounts.push(0);
+					}
+
+					// count location
+					for (var i = 0; i < (nodedata.locat).length; i++){
+
+						// simplize lication to region
+						for (key in countries) {
+							if((nodedata.locat[i]).indexOf(key) >= 0){nodedata.locat[i] = countries[key];}
+						}
+
+						// count location	
+						for (var j = 0; j < locationsDefinition.length; j++){
+							if( (nodedata.locat[i].indexOf(locationsDefinition[j]) >= 0) && 
+								(nodedata.coldat[i] >= fromdate) && (nodedata.coldat[i] <= todate) ){
+								locationCounts[j]++;
+							}
+						}
+					}
+				}
+
+				// recalc pie chart					
+				if (d.blank == 0){
+
+					//count each location
+					var pieChart = []
+					for(i = 0; i < locationsDefinition.length; i++){
+						pieChart.push({"color": i, "percent": locationCounts[i]*100/conc})
+					}
+					// console.log(pieChart);
+					NodePieBuilder.drawNodePie(d3.select(this), pieChart, {
+						radius: 10*(Math.log(conc + 1))**1.8 + 3,
+						parentNodeColor: "#999",
+						outerStrokeWidth: 4,
+						showLabelText: false
+					});
+				}				
+			})
+			.attr("visibility", function(d){
+
+				var colday = (!(d.collection_date) ? ["Undefined"] : (d.collection_date.split(',')) );
+				var colday2 = colday.filter(function(s){return s !== "Undefined";});
+
+				return  (Math.max.apply(null, colday2) >= fromdate) *
+						(Math.min.apply(null, colday2) <= todate)
+						 ? "visible":"hidden";});
+
+			d3.selectAll("circle")
+				.attr("cx", function(d) { return d.x;})
+				.attr("cy", function(d) { return d.y;});
+         setTimeout(function () {resolve('complete');}, 
+         	3000);
+	});
+	await build;
+}
 
 //initialize the view: start the first visualization
-graphshow(jsondata, 0.1);
-//initialize the view: start the first visualization
+graphshow(jsondata, 0.2);
 
 </script>
 </body>
