@@ -2,7 +2,7 @@
 
 HaplotypeExplorer is an interactive haplotype network viewer for spatiotemporal dissection of multimodal epidemic spectra.
 
-## Example 
+## Contents of `Example` 
 
 - Example networks, JSON files, and a movie are available in `Example`.
   - html files: Example outputs of Haplotype Explorer.
