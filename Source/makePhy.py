@@ -1,4 +1,4 @@
-inputfilename="input4.SNV.cdhit.txt"
+inputfilename="input.cdhit.txt"
 
 if __name__ == '__main__':
 
