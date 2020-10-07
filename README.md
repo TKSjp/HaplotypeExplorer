@@ -5,9 +5,9 @@ HaplotypeExplorer is an interactive haplotype network viewer for spatiotemporal 
 ## Contents of `Example` 
 
 - Example networks, JSON files, and a movie are available in `Example`.
-  - html files: Example outputs of Haplotype Explorer.
-  - json files: Users can share and resume the network by input JSON into Haplotype Explorer.
-  - movie: The movie depicting the eruption of SARS-CoV-2 in the world from 2019 DEC 31 to 2020 MAR 21. 
+  - html files: Example outputs of Haplotype Explorer. Click the "Raw" button to download. Please open it in a browser.
+  - json files: Users can share and resume the network by input JSON into Haplotype Explorer. Please see `manual.pdf`.
+  - movie: The movie depicting the eruption of the SARS-CoV-2 in the world from 2019 DEC 31 to 2020 MAR 21. 
 
 ## How to visualize your data
 
