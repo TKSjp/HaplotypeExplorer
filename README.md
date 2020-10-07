@@ -2,6 +2,12 @@
 
 HaplotypeExplorer is an interactive haplotype network viewer for spatiotemporal dissection of multimodal epidemic spectra.
 
+## How to start
+
+- Click "↓Code" button and download files.
+- To see example results, open `Example`.
+- To visualize your data in Haplotype Explorer, run `python createHTML.py` after preparing `input.fasta` and installing dependencies.
+
 ## Contents of `Example` 
 
 - Example networks, JSON files, and a movie are available in `Example`.
