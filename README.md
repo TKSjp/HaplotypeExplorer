@@ -21,7 +21,7 @@ The way to visualize users data is also described in Figure 2. Please see also `
 
 - Install dependencies with conda: `conda install -c bioconda seqkit mafft cd-hit snp-sites trimal`
 - Put multi-FASTA as `input.fasta` and run `python createHTML.py`
-- Open `result.html` then you can explore your network.
+- `result.html` will automatically open after calcuration.
 
 ## Citation
 
