@@ -38,7 +38,7 @@ class inputPrep:
 
 		# run seqkit and remove DNA sequences with ambiguous codes
 		with open('input2.fasta', 'w') as input2:
-			state = 'N|n|_|-|R|r|M|m|W|w|S|s|Y|y|K|k|H|h|B|b|D|d|V|v'
+			state = 'N|n|_|R|r|M|m|W|w|S|s|Y|y|K|k|H|h|B|b|D|d|V|v'
 			subprocess.run(["seqkit", "grep", "-vsirp", state, "-w", "0", "input1.fasta"], stdout = input2)
 
 		print("curation of sequences using seqkit - done.")
@@ -406,8 +406,9 @@ if __name__ == '__main__':
 
 		procedures.cdhit()
 		procedures.parseCdhit()
+		procedures.makeTCSresultDir()
 		procedures.makePhy()
-
+		
 		tcsrun = useTCS(procedures)
 		tcsrun.runTCS()
 		nodes_sorted = tcsrun.parseGraphML()[0]
