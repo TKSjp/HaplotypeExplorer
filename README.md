@@ -30,6 +30,7 @@ There are upper limits for sequence number, SNV length, and genetic distance for
 - The TCS requires several hours for a few thousands sequences/SNVs (in standard iMac). Alignment also takes long time for a large input.
 - It also split the network in case inputs have too long genetic distance.
 - Using over thousands of sequences make it difficult to visualize the result clearly due to multiple edges.
+- Also, it does not consider sequence gaps, recombination, and reassortment.
 
 Therefore, we recommend to start with a small set and gradually scale up until you can obtain better result.
 
