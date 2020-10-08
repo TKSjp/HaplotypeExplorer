@@ -36,7 +36,9 @@ Therefore, we recommend to start with a small set and gradually scale up until y
 ## Citation
 
 ```
-Tetsuro Kawano-Sugaya1*, Koji Yatsu1, Tsuyoshi Sekizuka1, Kentaro Itokawa1, Masanori Hashino1, Rina Tanaka1, Makoto Kuroda1 (2020) Haplotype Explorer: infection cluster visualization tool toward spatiotemporal dissection of the COVID-19 pandemic. doi: https://www.biorxiv.org/content/10.1101/2020.07.19.179101v1
+Tetsuro Kawano-Sugaya1*, Koji Yatsu1, Tsuyoshi Sekizuka1, Kentaro Itokawa1, Masanori Hashino1, Rina Tanaka1, Makoto Kuroda1 (2020)
+Haplotype Explorer: infection cluster visualization tool toward spatiotemporal dissection of the COVID-19 pandemic.
+bioRxiv. doi: https://www.biorxiv.org/content/10.1101/2020.07.19.179101v1
 
 1 Pathogen Genomics Center, National Institute of Infectious Diseases, Toyama 1-23-1, Shinjuku, Tokyo, Japan
 * Corresponding author: Tetsuro Kawano-Sugaya (tks_jp@seikai.org)
