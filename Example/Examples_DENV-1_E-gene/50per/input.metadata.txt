@@ -1,0 +1,4790 @@
+0
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH807164_...",
+
+
+1
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH010597_...",
+
+
+2
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH010600_...",
+
+
+3
+ "location": "*,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH010601_...,>MH010602_...,>MG738073_...,>MG738074_...,>MG738075_...,>MG738088_...,>MG738090_...,>MG738092_...,>MG738094_...,>MG738097_...,>MG738105_...,>MG738107_...,>MG738130_...,>MG738131_...,>MG738134_...,>MG738137_...,>MG738153_...",
+
+
+4
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680525_...",
+
+
+5
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG957439_...",
+
+
+6
+ "location": "*,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH680522_...,>MH680520_...,>MH680494_...,>MH680426_...,>MH680416_...,>MH680397_...",
+
+
+7
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX768364_...",
+
+
+8
+ "location": "*,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.",
+ "identical_name": ">KX768368_...,>KX768376_...,>KX768370_...,>KX768369_...",
+
+
+9
+ "location": "*,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">KX768379_...,>KX768411_...,>KX768416_...,>KX768399_...,>KX768417_...,>KX768402_...,>KX768412_...,>KX768406_...",
+
+
+10
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KX768363_...,>KX768365_...",
+
+
+11
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX768378_...",
+
+
+12
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KX768355_...,>KX768362_...",
+
+
+13
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX768339_...",
+
+
+14
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MH680516_...,>MH680508_...",
+
+
+15
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX768351_...",
+
+
+16
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX372687_...",
+
+
+17
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX768381_...",
+
+
+18
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX768408_...",
+
+
+19
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KX768384_...,>KX768385_...",
+
+
+20
+ "location": "*,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">KX768354_...,>KX768353_...,>KX768359_...,>KX768349_...,>KX768358_...",
+
+
+21
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX768341_...",
+
+
+22
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX768405_...",
+
+
+23
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX768346_...",
+
+
+24
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX768386_...",
+
+
+25
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX768409_...",
+
+
+26
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">MH680509_...,>MH680506_...,>MH680504_...",
+
+
+27
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680510_...",
+
+
+28
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680511_...",
+
+
+29
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680513_...",
+
+
+30
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX372686_...",
+
+
+31
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX768371_...",
+
+
+32
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX768374_...",
+
+
+33
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX768350_...",
+
+
+34
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">MH428208_...,>MH428209_...,>MH680503_...",
+
+
+35
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680507_...",
+
+
+36
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680502_...",
+
+
+37
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU310948_...",
+
+
+38
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680501_...",
+
+
+39
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">KX056457_...,>KX056458_...,>KX056459_...",
+
+
+40
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX056473_...",
+
+
+41
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY021900_...",
+
+
+42
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY021899_...",
+
+
+43
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680496_...",
+
+
+44
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX056470_...",
+
+
+45
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX056468_...",
+
+
+46
+ "location": "*,at,at,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH680490_...,>MG738026_...,>MG738041_...,>MG738047_...,>MG738049_...,>MG738051_...,>MG738052_...,>MG738054_...,>MG738055_...,>KY886977_...",
+
+
+47
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY021898_...",
+
+
+48
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY021897_...",
+
+
+49
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY021894_...",
+
+
+50
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX056463_...",
+
+
+51
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX056464_...",
+
+
+52
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680481_...",
+
+
+53
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680483_...",
+
+
+54
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680484_...",
+
+
+55
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680486_...",
+
+
+56
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KT345174_...,>MG737879_...",
+
+
+57
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680471_...",
+
+
+58
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680474_...",
+
+
+59
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680475_...",
+
+
+60
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680468_...",
+
+
+61
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680464_...",
+
+
+62
+ "location": "*,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH680465_...,>MH680455_...,>MH680412_...,>MH680375_...,>MH680400_...,>MH680350_...,>MH680360_...,>MH612067_...,>MH612068_...,>MH612140_...,>MH612141_...,>MH612142_...,>MH612004_...,>MH612005_...,>MH612006_...,>MH612011_...,>MH612014_...,>MH612015_...,>MH612021_...,>MH612026_...,>MH612027_...,>MH612028_...,>MH612030_...,>MH612036_...,>MH612045_...,>MH612046_...,>MH612047_...,>MH612050_...,>MH612051_...,>MH612052_...,>MH612053_...,>MH612058_...,>MH612115_...,>MH612117_...,>MH612118_...,>MH612120_...,>MH612121_...,>MH612122_...,>MH612124_...,>MH612129_...,>MH612132_...,>MH612133_...,>MH612135_...,>MH612138_...,>MH680299_...,>MH611930_...,>MH611931_...,>MH611934_...,>MH611938_...,>MH611940_...,>MH611944_...,>MH611947_...,>MH611954_...,>MH611957_...,>MH611958_...,>MH611959_...,>MH611964_...,>MH611968_...,>MH611969_...,>MH611971_...,>MH611972_...,>MH611978_...,>MH611982_...,>MH611983_...,>MH611984_...,>MH611988_...,>MH611990_...,>MH611992_...,>MH611993_...,>MH611997_...,>MH611999_...,>MH612000_...,>MH612086_...,>MH612087_...,>MH612090_...,>MH612092_...,>MH612095_...,>MH612098_...,>MH612100_...,>MH612102_...,>MH612103_...,>MH612113_...,>MH680282_...,>MH680286_...,>MH680289_...,>MH611922_...,>MH611923_...,>MH611924_...,>MH611925_...,>MH612083_...,>MH612085_...,>MH680279_...,>MH611915_...,>MH680260_...,>MH611901_...,>MH611905_...,>MH611908_...,>MH611913_...,>MH612081_...,>MH611896_...,>MH611897_...,>MH611898_...,>MH680195_...,>MH611892_...,>MH611893_...,>MH612078_...,>MH611887_...,>MH680149_...,>MH680152_...,>MH680163_...,>MH611878_...,>MH611881_...,>MH611883_...,>MH680106_...,>MH680109_...,>MH680119_...,>MH611876_...,>MH612073_...,>MH428104_...,>MH612071_...",
+
+
+63
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680467_...",
+
+
+64
+ "location": "*,at,at,at,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">KT751341_...,>KT751344_...,>KT037105_...,>KT453226_...,>KT382297_...,>KT382298_...,>MG560263_...,>MG560262_...,>MG560253_...,>KT453224_...,>KU509293_...",
+
+
+65
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680461_...",
+
+
+66
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680462_...",
+
+
+67
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680445_...",
+
+
+68
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MH680446_...,>MH680423_...",
+
+
+69
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680450_...",
+
+
+70
+ "location": "*,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH680451_...,>MH680453_...,>MH680418_...,>MH680425_...,>MH680430_...,>MH680376_...,>MH680384_...,>MH680398_...,>MH428161_...,>MH428162_...,>MH428163_...,>MH428165_...,>MH428168_...,>MH428169_...,>MH428172_...,>MH428173_...,>MH428174_...,>MH428176_...,>MH428177_...,>MH428183_...,>MH428184_...,>MH428186_...,>MH428198_...,>MH680351_...,>MH680353_...,>MH612233_...,>MH428135_...,>MH428137_...,>MH428144_...,>MH428145_...,>MH428158_...,>MH428159_...,>MH680333_...,>MH680343_...,>MH612203_...,>MH612204_...,>MH612197_...,>MH680293_...,>MH612189_...,>MH612185_...,>MH612183_...,>MH612223_...,>MH612163_...,>MH612168_...,>MH612169_...,>MH612172_...,>MH612220_...,>MH680193_...,>MH680203_...,>MH680209_...,>MH612162_...,>MH612212_...,>MH612215_...,>MH680171_...,>MH680181_...,>MH612149_...,>MH612207_...,>MH612210_...",
+
+
+71
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680452_...",
+
+
+72
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680454_...",
+
+
+73
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680456_...",
+
+
+74
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680458_...",
+
+
+75
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680459_...",
+
+
+76
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT037113_...",
+
+
+77
+ "location": "*,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MG560259_...,>KT037104_...,>KT037111_...,>MG560237_...,>MG560219_...,>KT428611_...,>MG560243_...,>MG560240_...,>KT428615_...,>KT428612_...,>KT428606_...,>KT428605_...,>KT382299_...,>KT382300_...,>MG560239_...,>KT382302_...,>MG560238_...,>MG560256_...,>KT453231_...,>KT382305_...,>MG560233_...,>MG560249_...,>MH680404_...,>MH680395_...,>MH680346_...,>MH680371_...,>MH680336_...,>MH611873_...,>MH680317_...,>MH611868_...,>MH680274_...,>KT819304_...",
+
+
+78
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT037108_...",
+
+
+79
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT037109_...",
+
+
+80
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT453236_...",
+
+
+81
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT453229_...",
+
+
+82
+ "location": "*,at,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH680440_...,>MH680415_...,>MH680374_...,>MH680355_...,>MH680361_...,>MH680339_...,>MH611859_...,>MH680315_...,>MH680284_...",
+
+
+83
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680444_...",
+
+
+84
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560246_...",
+
+
+85
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560214_...",
+
+
+86
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560212_...",
+
+
+87
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560241_...",
+
+
+88
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT428608_...",
+
+
+89
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KT382304_...,>KT453228_...",
+
+
+90
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT382296_...",
+
+
+91
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KT382301_...,>KT453238_...",
+
+
+92
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560257_...",
+
+
+93
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560258_...",
+
+
+94
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560210_...",
+
+
+95
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560211_...",
+
+
+96
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560209_...",
+
+
+97
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MH680424_...,>MH680362_...",
+
+
+98
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680427_...",
+
+
+99
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680428_...",
+
+
+100
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680429_...",
+
+
+101
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680431_...",
+
+
+102
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560261_...",
+
+
+103
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">KX056450_...,>KY038887_...,>KY038889_...",
+
+
+104
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560229_...",
+
+
+105
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX056449_...",
+
+
+106
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX056448_...",
+
+
+107
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX056451_...",
+
+
+108
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560255_...",
+
+
+109
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KT453244_...,>MH680390_...",
+
+
+110
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560225_...",
+
+
+111
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560222_...",
+
+
+112
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560221_...",
+
+
+113
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT453241_...",
+
+
+114
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680403_...",
+
+
+115
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680406_...",
+
+
+116
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680409_...",
+
+
+117
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680411_...",
+
+
+118
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680413_...",
+
+
+119
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG560247_...",
+
+
+120
+ "location": "*,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.",
+ "identical_name": ">MG957437_...,>KX685337_...,>KX685336_...,>KC741440_...",
+
+
+121
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX056445_...",
+
+
+122
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MH680378_...,>KX224260_...",
+
+
+123
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680380_...",
+
+
+124
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680381_...",
+
+
+125
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680385_...",
+
+
+126
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680394_...",
+
+
+127
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH428194_...",
+
+
+128
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH428197_...",
+
+
+129
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680345_...",
+
+
+130
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680347_...",
+
+
+131
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680348_...",
+
+
+132
+ "location": "*,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH680356_...,>MH680370_...,>MH612195_...,>MH612226_...,>MH612182_...,>MH612173_...",
+
+
+133
+ "location": "*,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH680368_...,>MH680202_...,>MH680155_...,>MH680071_...,>MH680043_...,>MH680054_...,>MH679968_...,>MH679941_...",
+
+
+134
+ "location": "*,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH680369_...,>MH611559_...,>MH611749_...,>MH680256_...,>MH611555_...,>MH611556_...,>MH611558_...,>MH611736_...,>MH611737_...,>MH611740_...,>MH611741_...,>MH611744_...,>MH611746_...,>MH680232_...,>MH680242_...,>MH680248_...,>MH680253_...,>MH611554_...,>MH611715_...,>MH611719_...,>MH611720_...,>MH611721_...,>MH611723_...,>MH611725_...,>MH611726_...,>MH611731_...,>MH611732_...,>MH611733_...,>MH680199_...,>MH680215_...,>MH611547_...,>MH611548_...,>MH611549_...,>MH611703_...,>MH611707_...,>MH680180_...,>MH680187_...,>MH611545_...,>MH611693_...,>MH611694_...,>MH611697_...,>MH611698_...,>MH611699_...,>MH611700_...,>MH611701_...,>MH611702_...,>MH428116_...,>MH680144_...,>MH680150_...,>MH680166_...,>MH611543_...,>MH611682_...,>MH611683_...,>MH611687_...,>MH611689_...,>MH680107_...,>MH680108_...,>MH680130_...,>MH611541_...,>MH680094_...,>MH611658_...,>MH611659_...,>MH611660_...,>MH611662_...,>MH611663_...,>MH611667_...,>MH611668_...,>MH611670_...,>MH611671_...,>MH611676_...,>MH611677_...,>MH680070_...,>MH680073_...,>MH611532_...,>MH611533_...,>MH611534_...,>MH611637_...,>MH611638_...,>MH611641_...,>MH611642_...,>MH611644_...,>MH611647_...,>MH611650_...,>MH611651_...,>MH611654_...,>MH611755_...,>MH611756_...,>MH611757_...,>MH680036_...,>MH680037_...,>MH680044_...,>MH611529_...,>MH611616_...,>MH611620_...,>MH611621_...,>MH611623_...,>MH611624_...,>MH611625_...,>MH611626_...,>MH611627_...,>MH611629_...,>MH611630_...,>MH611631_...,>MH611633_...,>MH611634_...,>MH611635_...,>MH680004_...,>MH680008_...,>MH680016_...,>KP685234_...,>MH611525_...,>MH611595_...,>MH611597_...,>MH611599_...,>MH611600_...,>MH611601_...,>MH611602_...,>MH611604_...,>MH611606_...,>MH611607_...,>MH611608_...,>MH611609_...,>MH611612_...,>MH611613_...,>MH611753_...,>MH679966_...,>MH679967_...,>MH679969_...,>MH679971_...,>MH679977_...,>MH611575_...,>MH611576_...,>MH611577_...,>MH611580_...,>MH611582_...,>MH611583_...,>MH611588_...,>MH679951_...,>MH679956_...,>MH679957_...,>MH679959_...,>MH611520_...,>MH611522_...,>MH611569_...,>MH611570_...,>MH611572_...,>MH611573_...,>MH679943_...,>MH679946_...,>MH679948_...,>MH679950_...,>MH611566_...,>MH611568_...,>MH679940_...,>MH611562_...,>MH611751_...,>MH611560_...,>MH679937_...,>KJ806957_...",
+
+
+135
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680372_...",
+
+
+136
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH611874_...",
+
+
+137
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">MH612139_...,>MH612002_...,>MH612007_...",
+
+
+138
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">MH428143_...,>MH680324_...,>KJ806966_...",
+
+
+139
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH428146_...",
+
+
+140
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH428149_...",
+
+
+141
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH428150_...",
+
+
+142
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH428155_...",
+
+
+143
+ "location": "*,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.",
+ "identical_name": ">MH680328_...,>MH680344_...,>MH680310_...,>KX224258_...",
+
+
+144
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680329_...",
+
+
+145
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MH680338_...,>MH680319_...",
+
+
+146
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH611870_...",
+
+
+147
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH612003_...",
+
+
+148
+ "location": "*,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH612016_...,>MH612040_...,>MH611956_...,>MH611970_...,>MH611986_...,>MH612101_...",
+
+
+149
+ "location": "*,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH612065_...,>MH612134_...,>MH680301_...,>MH611962_...,>MH612096_...",
+
+
+150
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MH612200_...,>MH612201_...",
+
+
+151
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680302_...",
+
+
+152
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680306_...",
+
+
+153
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680307_...",
+
+
+154
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680311_...",
+
+
+155
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680316_...",
+
+
+156
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX685338_...",
+
+
+157
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680285_...",
+
+
+158
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680288_...",
+
+
+159
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">MH612190_...,>MH612193_...,>MH680269_...",
+
+
+160
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MH612194_...,>MH612177_...",
+
+
+161
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680270_...",
+
+
+162
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">LC062957_...,>KT825060_...",
+
+
+163
+ "location": "*,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH611780_...,>MH611791_...,>MH611775_...,>MH680173_...,>MH611774_...",
+
+
+164
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH611781_...",
+
+
+165
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH611865_...",
+
+
+166
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH612186_...",
+
+
+167
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680258_...",
+
+
+168
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680261_...",
+
+
+169
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">MH611902_...,>MH611909_...,>MH611910_...",
+
+
+170
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MH611903_...,>MH611906_...",
+
+
+171
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH611904_...",
+
+
+172
+ "location": "*,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.",
+ "identical_name": ">MH611911_...,>MH611912_...,>MH680217_...,>MH611899_...",
+
+
+173
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680219_...",
+
+
+174
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680221_...",
+
+
+175
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680223_...",
+
+
+176
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680224_...",
+
+
+177
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680225_...",
+
+
+178
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680227_...",
+
+
+179
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680231_...",
+
+
+180
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680234_...",
+
+
+181
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MH680241_...,>KT825065_...",
+
+
+182
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">MH680245_...,>MH680246_...,>MH680247_...",
+
+
+183
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680254_...",
+
+
+184
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH611862_...",
+
+
+185
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680198_...",
+
+
+186
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680201_...",
+
+
+187
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680212_...",
+
+
+188
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MH612151_...,>MH612152_...",
+
+
+189
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">MH612153_...,>MH612211_...,>MH680174_...",
+
+
+190
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH428132_...",
+
+
+191
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680184_...",
+
+
+192
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH611787_...",
+
+
+193
+ "location": "*,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH611816_...,>MH611817_...,>MH680140_...,>MH680142_...,>MH680129_...,>MH680098_...",
+
+
+194
+ "location": "*,at,at,at,at,at,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH612246_...,>MH612248_...,>MH612251_...,>MH612252_...,>MH612253_...,>MH428124_...,>MH680135_...,>MH612243_...,>MH428111_...,>MH428113_...,>MH428114_...,>MH680103_...,>MH612238_...",
+
+
+195
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680136_...",
+
+
+196
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680141_...",
+
+
+197
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680153_...",
+
+
+198
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680156_...",
+
+
+199
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680164_...",
+
+
+200
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KJ470740_...",
+
+
+201
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KJ415094_...",
+
+
+202
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX056460_...",
+
+
+203
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH612146_...",
+
+
+204
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH612255_...",
+
+
+205
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH612256_...",
+
+
+206
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680123_...",
+
+
+207
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KJ470713_...,>KJ470727_...",
+
+
+208
+ "location": "*,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">KJ470714_...,>KJ470731_...,>KJ470733_...,>KJ470734_...,>KR051922_...",
+
+
+209
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KJ470716_...",
+
+
+210
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KJ470718_...",
+
+
+211
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KJ470719_...,>KJ470720_...",
+
+
+212
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KJ470722_...,>KJ470724_...",
+
+
+213
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KJ470726_...",
+
+
+214
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KJ470728_...",
+
+
+215
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KJ470732_...",
+
+
+216
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KJ470737_...",
+
+
+217
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KJ415098_...,>KJ415096_...",
+
+
+218
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KJ415097_...",
+
+
+219
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH611848_...",
+
+
+220
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">MH680096_...,>MH680100_...,>MH679981_...",
+
+
+221
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680101_...",
+
+
+222
+ "location": "*,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH611768_...,>MH680033_...,>MH611766_...,>MH611762_...,>MH611763_...,>MH611785_...,>MH679962_...",
+
+
+223
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH611811_...",
+
+
+224
+ "location": "*,at,at,at,at,at,at,at,at,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH611812_...,>MH680030_...,>MH611807_...,>MH611808_...,>MH680005_...,>MH680007_...,>MH611797_...,>MH611801_...,>MH611803_...,>MH611804_...,>MH611805_...,>MH611821_...,>MH611793_...,>MH611794_...,>MH611795_...,>MH679955_...",
+
+
+225
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">MH680079_...,>MH680018_...,>MH679964_...",
+
+
+226
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680080_...",
+
+
+227
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680082_...",
+
+
+228
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680083_...",
+
+
+229
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680089_...",
+
+
+230
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680090_...",
+
+
+231
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KJ415092_...",
+
+
+232
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680035_...",
+
+
+233
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680041_...",
+
+
+234
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680042_...",
+
+
+235
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680049_...",
+
+
+236
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH611765_...",
+
+
+237
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH611829_...",
+
+
+238
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH679997_...",
+
+
+239
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680006_...",
+
+
+240
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680013_...",
+
+
+241
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680014_...",
+
+
+242
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680017_...",
+
+
+243
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680021_...",
+
+
+244
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680024_...",
+
+
+245
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680027_...",
+
+
+246
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH680028_...",
+
+
+247
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH611827_...",
+
+
+248
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH611828_...",
+
+
+249
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH679980_...",
+
+
+250
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MH679987_...,>MH679938_...",
+
+
+251
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH679988_...",
+
+
+252
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH679991_...",
+
+
+253
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH679992_...",
+
+
+254
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH679993_...",
+
+
+255
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG957435_...",
+
+
+256
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH612236_...",
+
+
+257
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH679942_...",
+
+
+258
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC854413_...",
+
+
+259
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC854414_...",
+
+
+260
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH679935_...",
+
+
+261
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH679933_...",
+
+
+262
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH679934_...",
+
+
+263
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH679932_...",
+
+
+264
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH679928_...",
+
+
+265
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MH679931_...,>KP685233_...",
+
+
+266
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC589008_...",
+
+
+267
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC589009_...",
+
+
+268
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH679926_...",
+
+
+269
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH679927_...",
+
+
+270
+ "location": "*,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MH679924_...,>JN544401_...,>JN544408_...,>JN544406_...,>KJ806936_...,>JN544400_...,>JN544404_...,>JN544405_...",
+
+
+271
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KM216688_...",
+
+
+272
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF926700_...",
+
+
+273
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KM216689_...",
+
+
+274
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KM216682_...",
+
+
+275
+ "location": "*,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.",
+ "identical_name": ">KM216673_...,>KM216669_...,>KM216664_...,>KM216671_...",
+
+
+276
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ065929_...",
+
+
+277
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY275183_...",
+
+
+278
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ065941_...",
+
+
+279
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ065928_...",
+
+
+280
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ065920_...",
+
+
+281
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ065948_...",
+
+
+282
+ "location": "*,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">JQ065931_...,>JQ065910_...,>JQ065901_...,>JQ065900_...,>JQ065912_...,>JQ065933_...,>JQ425065_...",
+
+
+283
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ065916_...",
+
+
+284
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ065921_...",
+
+
+285
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ065903_...",
+
+
+286
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ065915_...",
+
+
+287
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY275190_...",
+
+
+288
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655091_...",
+
+
+289
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">JQ655090_...,>JQ655088_...,>JQ655086_...",
+
+
+290
+ "location": "*,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">KY275195_...,>KY275185_...,>KT824968_...,>JN415510_...,>KT825045_...",
+
+
+291
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655085_...",
+
+
+292
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KY275194_...,>KY275192_...",
+
+
+293
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN036371_...",
+
+
+294
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655082_...",
+
+
+295
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655047_...",
+
+
+296
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655045_...",
+
+
+297
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655042_...",
+
+
+298
+ "location": "*,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.",
+ "identical_name": ">JQ655040_...,>JQ655039_...,>JQ655037_...,>JQ655035_...",
+
+
+299
+ "location": "*,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.",
+ "identical_name": ">JQ655076_...,>JQ655073_...,>JQ655071_...,>JQ655070_...",
+
+
+300
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655036_...",
+
+
+301
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">JQ655034_...,>JQ655025_...",
+
+
+302
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655072_...",
+
+
+303
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655032_...",
+
+
+304
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">JQ655026_...,>JQ655024_...",
+
+
+305
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">JQ655023_...,>JQ655013_...,>JQ654988_...",
+
+
+306
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">JQ655020_...,>JQ655018_...,>JQ655014_...",
+
+
+307
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655016_...",
+
+
+308
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655011_...",
+
+
+309
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">JQ655009_...,>JQ655008_...,>JQ655006_...",
+
+
+310
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">FJ158610_...",
+
+
+311
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655007_...",
+
+
+312
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655003_...",
+
+
+313
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">FJ158609_...",
+
+
+314
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ654999_...",
+
+
+315
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">JQ654997_...,>JQ654994_...",
+
+
+316
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ654995_...",
+
+
+317
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">JQ654993_...,>JQ654985_...",
+
+
+318
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">JQ654990_...,>JQ654983_...",
+
+
+319
+ "location": "*,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">JQ655067_...,>JQ654981_...,>JQ654979_...,>JQ654973_...,>JN415505_...",
+
+
+320
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ654984_...",
+
+
+321
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ654980_...",
+
+
+322
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">JQ654977_...,>JQ654975_...",
+
+
+323
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655066_...",
+
+
+324
+ "location": "*,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">JQ655064_...,>JQ655063_...,>JQ655060_...,>JQ655056_...,>JQ655054_...,>JQ655053_...",
+
+
+325
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655062_...",
+
+
+326
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655094_...",
+
+
+327
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655095_...",
+
+
+328
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ655049_...",
+
+
+329
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">LC462951_...",
+
+
+330
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738059_...",
+
+
+331
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738060_...",
+
+
+332
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738061_...",
+
+
+333
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738064_...",
+
+
+334
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738067_...",
+
+
+335
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738068_...",
+
+
+336
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738069_...",
+
+
+337
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MG738070_...,>MG738071_...",
+
+
+338
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738095_...",
+
+
+339
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">MG738108_...,>MG738109_...,>MG738111_...",
+
+
+340
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738116_...",
+
+
+341
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738117_...",
+
+
+342
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738119_...",
+
+
+343
+ "location": "*,at,at,at,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MG738121_...,>MG738122_...,>MG738123_...,>MG738124_...,>MG738125_...,>MG738127_...,>MG738140_...,>MG738141_...,>MG738144_...,>MG738147_...,>MG738150_...",
+
+
+344
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738128_...",
+
+
+345
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738138_...",
+
+
+346
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738143_...",
+
+
+347
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738145_...",
+
+
+348
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738146_...",
+
+
+349
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173469_...",
+
+
+350
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173471_...",
+
+
+351
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173472_...",
+
+
+352
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173473_...",
+
+
+353
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173477_...",
+
+
+354
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG737987_...",
+
+
+355
+ "location": "*,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MG737989_...,>MG737993_...,>MG738001_...,>MG738011_...,>MG738025_...,>MG738034_...,>MG738036_...",
+
+
+356
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG737992_...",
+
+
+357
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG737997_...",
+
+
+358
+ "location": "*,at,at,at,at,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MG738002_...,>MG738003_...,>MG738005_...,>MG738006_...,>MG738009_...,>MG738010_...,>MG738012_...,>MG738013_...,>MG738016_...,>MG738020_...,>MG738022_...,>MG738042_...",
+
+
+359
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MG738023_...,>MG738033_...",
+
+
+360
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738024_...",
+
+
+361
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738028_...",
+
+
+362
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738040_...",
+
+
+363
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">MG738046_...,>KU509289_...,>KT825006_...",
+
+
+364
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738048_...",
+
+
+365
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG738057_...",
+
+
+366
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH401994_...",
+
+
+367
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH401995_...",
+
+
+368
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH173159_...",
+
+
+369
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH173160_...",
+
+
+370
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY495795_...",
+
+
+371
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY495801_...",
+
+
+372
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY886978_...",
+
+
+373
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KY886979_...,>KY886980_...",
+
+
+374
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY283852_...",
+
+
+375
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173466_...",
+
+
+376
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173467_...",
+
+
+377
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173478_...",
+
+
+378
+ "location": "*,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">MG737882_...,>MG737883_...,>MG737884_...,>MG737885_...,>MG737886_...,>MG737887_...",
+
+
+379
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">MG737889_...,>MG737891_...,>MG737892_...",
+
+
+380
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MG737894_...,>MG737899_...",
+
+
+381
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG737901_...",
+
+
+382
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MG737903_...,>MG737907_...",
+
+
+383
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MG737904_...,>MG737911_...",
+
+
+384
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MG737914_...",
+
+
+385
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH401981_...",
+
+
+386
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH401983_...",
+
+
+387
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH401985_...",
+
+
+388
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH401993_...",
+
+
+389
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH401997_...",
+
+
+390
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971719_...",
+
+
+391
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825035_...",
+
+
+392
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825036_...",
+
+
+393
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825040_...",
+
+
+394
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825042_...",
+
+
+395
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825043_...",
+
+
+396
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825071_...",
+
+
+397
+ "location": "*,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">KY038890_...,>KX357916_...,>KX357934_...,>KX357960_...,>KR051914_...,>KR051916_...,>KR051918_...",
+
+
+398
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357900_...",
+
+
+399
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357901_...",
+
+
+400
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357902_...",
+
+
+401
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357903_...",
+
+
+402
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357904_...",
+
+
+403
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357905_...",
+
+
+404
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KX357906_...,>KX357913_...",
+
+
+405
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357907_...",
+
+
+406
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">KX357910_...,>KX357912_...,>KX357971_...",
+
+
+407
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357914_...",
+
+
+408
+ "location": "*,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.",
+ "identical_name": ">KX357915_...,>KX357921_...,>KX357939_...,>KX357951_...",
+
+
+409
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357917_...",
+
+
+410
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357919_...",
+
+
+411
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357927_...",
+
+
+412
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357930_...",
+
+
+413
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357932_...",
+
+
+414
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357933_...",
+
+
+415
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357938_...",
+
+
+416
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357941_...",
+
+
+417
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357947_...",
+
+
+418
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357950_...",
+
+
+419
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357952_...",
+
+
+420
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357953_...",
+
+
+421
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357954_...",
+
+
+422
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357955_...",
+
+
+423
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357956_...",
+
+
+424
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357957_...",
+
+
+425
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357959_...",
+
+
+426
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357962_...",
+
+
+427
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357967_...",
+
+
+428
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357968_...",
+
+
+429
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357970_...",
+
+
+430
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357972_...",
+
+
+431
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX357975_...",
+
+
+432
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX721476_...",
+
+
+433
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KX721477_...,>KX721478_...",
+
+
+434
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KX721480_...,>KX721482_...",
+
+
+435
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX721481_...",
+
+
+436
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529701_...",
+
+
+437
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529702_...",
+
+
+438
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529704_...",
+
+
+439
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KU529706_...,>KU529697_...",
+
+
+440
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529711_...",
+
+
+441
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529714_...",
+
+
+442
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529717_...",
+
+
+443
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529721_...",
+
+
+444
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529722_...",
+
+
+445
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529726_...",
+
+
+446
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529727_...",
+
+
+447
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529728_...",
+
+
+448
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529730_...",
+
+
+449
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529733_...",
+
+
+450
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529734_...",
+
+
+451
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529737_...",
+
+
+452
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173461_...",
+
+
+453
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173462_...",
+
+
+454
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173463_...",
+
+
+455
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH401979_...",
+
+
+456
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH401987_...",
+
+
+457
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH401988_...",
+
+
+458
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825020_...",
+
+
+459
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825022_...",
+
+
+460
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825023_...",
+
+
+461
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825024_...",
+
+
+462
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825028_...",
+
+
+463
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825032_...",
+
+
+464
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825033_...",
+
+
+465
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825059_...",
+
+
+466
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825061_...",
+
+
+467
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825063_...",
+
+
+468
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY038893_...",
+
+
+469
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY038894_...",
+
+
+470
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY461749_...",
+
+
+471
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU509294_...",
+
+
+472
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU509311_...",
+
+
+473
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU509313_...",
+
+
+474
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX224264_...",
+
+
+475
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529691_...",
+
+
+476
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529693_...",
+
+
+477
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529696_...",
+
+
+478
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU529703_...",
+
+
+479
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KR136279_...",
+
+
+480
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">KR136280_...,>KR136289_...,>KR136300_...",
+
+
+481
+ "location": "*,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">KR136286_...,>KR136287_...,>KR136294_...,>KR136298_...,>KR136299_...,>KR136301_...",
+
+
+482
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KP185303_...",
+
+
+483
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173479_...",
+
+
+484
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173480_...",
+
+
+485
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">MH401975_...,>KP903781_...",
+
+
+486
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT824998_...",
+
+
+487
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825001_...",
+
+
+488
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">KT825004_...,>KT825005_...,>KT825018_...",
+
+
+489
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825007_...",
+
+
+490
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825008_...",
+
+
+491
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825010_...",
+
+
+492
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825011_...",
+
+
+493
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825013_...",
+
+
+494
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825053_...",
+
+
+495
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825056_...",
+
+
+496
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825058_...",
+
+
+497
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY038882_...",
+
+
+498
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY038885_...",
+
+
+499
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY038896_...",
+
+
+500
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KY461740_...,>KY461746_...",
+
+
+501
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY461742_...",
+
+
+502
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY461743_...",
+
+
+503
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY461744_...",
+
+
+504
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY461748_...",
+
+
+505
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY461751_...",
+
+
+506
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY461753_...",
+
+
+507
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KR051908_...",
+
+
+508
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KR051911_...",
+
+
+509
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KR051924_...",
+
+
+510
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KR051925_...",
+
+
+511
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KR051926_...",
+
+
+512
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KR051929_...",
+
+
+513
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KP903771_...",
+
+
+514
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KP903775_...",
+
+
+515
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KP903776_...",
+
+
+516
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU509309_...",
+
+
+517
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU509310_...",
+
+
+518
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU509314_...",
+
+
+519
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KU509316_...",
+
+
+520
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KP858105_...",
+
+
+521
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KP858106_...",
+
+
+522
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KP858107_...",
+
+
+523
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KP858108_...",
+
+
+524
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KP858109_...",
+
+
+525
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KP858110_...",
+
+
+526
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KP858115_...",
+
+
+527
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KP858117_...",
+
+
+528
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KP858118_...",
+
+
+529
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">AB915376_...",
+
+
+530
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">AB915378_...",
+
+
+531
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">AB915384_...",
+
+
+532
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF444916_...",
+
+
+533
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF444918_...",
+
+
+534
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF444921_...",
+
+
+535
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF809753_...",
+
+
+536
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">AB873104_...",
+
+
+537
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KJ807795_...,>KJ438297_...",
+
+
+538
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH311981_...",
+
+
+539
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH401972_...",
+
+
+540
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MH401974_...",
+
+
+541
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KT824983_...,>KT824997_...",
+
+
+542
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">KT824984_...,>KT825050_...,>KT825051_...",
+
+
+543
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT824985_...",
+
+
+544
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT824987_...",
+
+
+545
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT824988_...",
+
+
+546
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT824989_...",
+
+
+547
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT824990_...",
+
+
+548
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT824991_...",
+
+
+549
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT824994_...",
+
+
+550
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT824995_...",
+
+
+551
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY495798_...",
+
+
+552
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY495799_...",
+
+
+553
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY461755_...",
+
+
+554
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT204438_...",
+
+
+555
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT204439_...",
+
+
+556
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT204440_...",
+
+
+557
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT204441_...",
+
+
+558
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT204444_...",
+
+
+559
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT204447_...",
+
+
+560
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT204448_...",
+
+
+561
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT204450_...",
+
+
+562
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT204453_...",
+
+
+563
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KR527488_...",
+
+
+564
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KJ651912_...",
+
+
+565
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KJ806934_...",
+
+
+566
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">AB915371_...",
+
+
+567
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">AB915381_...",
+
+
+568
+ "location": "*,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.",
+ "identical_name": ">KF444910_...,>KF444911_...,>KF444919_...,>KF444922_...",
+
+
+569
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF444912_...",
+
+
+570
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF444913_...",
+
+
+571
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF444915_...",
+
+
+572
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF060914_...",
+
+
+573
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF060915_...",
+
+
+574
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF060916_...",
+
+
+575
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF060917_...",
+
+
+576
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF060918_...",
+
+
+577
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KT824971_...,>KT824976_...",
+
+
+578
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT824978_...",
+
+
+579
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT824980_...",
+
+
+580
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT824981_...",
+
+
+581
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825048_...",
+
+
+582
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT825049_...",
+
+
+583
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF419419_...",
+
+
+584
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF419420_...",
+
+
+585
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF419421_...",
+
+
+586
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF419422_...",
+
+
+587
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF419423_...",
+
+
+588
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF419424_...",
+
+
+589
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF419425_...",
+
+
+590
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF419428_...",
+
+
+591
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF419430_...",
+
+
+592
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF419431_...",
+
+
+593
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF419432_...",
+
+
+594
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KM236499_...",
+
+
+595
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KM236500_...",
+
+
+596
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KM236501_...",
+
+
+597
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF672790_...",
+
+
+598
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC006934_...",
+
+
+599
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC006935_...",
+
+
+600
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC006939_...",
+
+
+601
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">KC006940_...,>KC006944_...,>KC136240_...",
+
+
+602
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC006941_...",
+
+
+603
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN376784_...",
+
+
+604
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173459_...",
+
+
+605
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173482_...",
+
+
+606
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173483_...",
+
+
+607
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173484_...",
+
+
+608
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173485_...",
+
+
+609
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971701_...",
+
+
+610
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971705_...",
+
+
+611
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971706_...",
+
+
+612
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971707_...",
+
+
+613
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971708_...",
+
+
+614
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971711_...",
+
+
+615
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KT824966_...,>JN415492_...",
+
+
+616
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT824967_...",
+
+
+617
+ "location": "*,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.",
+ "identical_name": ">KT204460_...,>AB597973_...,>AB597974_...,>AB597976_...",
+
+
+618
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF444786_...",
+
+
+619
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415490_...",
+
+
+620
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415491_...",
+
+
+621
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415494_...",
+
+
+622
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415508_...",
+
+
+623
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ425072_...",
+
+
+624
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ920430_...",
+
+
+625
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ920431_...",
+
+
+626
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN009086_...",
+
+
+627
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN009090_...",
+
+
+628
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">AB624553_...",
+
+
+629
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JF960222_...",
+
+
+630
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JF960223_...",
+
+
+631
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JF960224_...",
+
+
+632
+ "location": "*,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">JF960227_...,>JF960229_...,>JF960230_...,>JF960232_...,>JF960233_...",
+
+
+633
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">AB597966_...",
+
+
+634
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN029811_...",
+
+
+635
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN029812_...",
+
+
+636
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN029815_...",
+
+
+637
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN029817_...",
+
+
+638
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN029818_...",
+
+
+639
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173456_...",
+
+
+640
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173457_...",
+
+
+641
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">MF173487_...",
+
+
+642
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971691_...",
+
+
+643
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971693_...",
+
+
+644
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971694_...",
+
+
+645
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971696_...",
+
+
+646
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971697_...",
+
+
+647
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971698_...",
+
+
+648
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971700_...",
+
+
+649
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX646376_...",
+
+
+650
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX646378_...",
+
+
+651
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX646379_...",
+
+
+652
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX646380_...",
+
+
+653
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KX646381_...",
+
+
+654
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF444783_...",
+
+
+655
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF444784_...",
+
+
+656
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF444785_...",
+
+
+657
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861924_...",
+
+
+658
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861925_...",
+
+
+659
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KC861927_...,>KC861926_...",
+
+
+660
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861928_...",
+
+
+661
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">KC861936_...,>KC861942_...,>KC861949_...",
+
+
+662
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861944_...",
+
+
+663
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861946_...",
+
+
+664
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861950_...",
+
+
+665
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861953_...",
+
+
+666
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861960_...",
+
+
+667
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KC861962_...,>KC861961_...",
+
+
+668
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861963_...",
+
+
+669
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415501_...",
+
+
+670
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ425061_...",
+
+
+671
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ425062_...",
+
+
+672
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ425063_...",
+
+
+673
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ425067_...",
+
+
+674
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ425068_...",
+
+
+675
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JF960212_...",
+
+
+676
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JF960214_...",
+
+
+677
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JF960217_...",
+
+
+678
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JF960218_...",
+
+
+679
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">AB550408_...",
+
+
+680
+ "location": "*,at,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">AB550411_...,>AB550412_...,>AB550413_...,>AB550415_...,>AB550416_...,>AB550419_...,>AB550422_...,>AB550424_...,>AB550428_...",
+
+
+681
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">AB550421_...",
+
+
+682
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">AB550423_...",
+
+
+683
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">AB550427_...",
+
+
+684
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971686_...",
+
+
+685
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971688_...",
+
+
+686
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY971689_...",
+
+
+687
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581602_...",
+
+
+688
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581603_...",
+
+
+689
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581604_...",
+
+
+690
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581605_...",
+
+
+691
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581619_...",
+
+
+692
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581620_...",
+
+
+693
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581623_...",
+
+
+694
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581625_...",
+
+
+695
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">JQ581630_...,>JQ581631_...",
+
+
+696
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861932_...",
+
+
+697
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861935_...",
+
+
+698
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861974_...",
+
+
+699
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861977_...",
+
+
+700
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415500_...",
+
+
+701
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415512_...",
+
+
+702
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415521_...",
+
+
+703
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415526_...",
+
+
+704
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415530_...",
+
+
+705
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415534_...",
+
+
+706
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415535_...",
+
+
+707
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN196566_...",
+
+
+708
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">GQ357668_...,>GQ357671_...,>GQ357673_...",
+
+
+709
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">GQ357677_...",
+
+
+710
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">GQ357683_...",
+
+
+711
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">GQ357686_...",
+
+
+712
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">GQ357687_...",
+
+
+713
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">FJ687478_...",
+
+
+714
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KT824964_...",
+
+
+715
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581617_...",
+
+
+716
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581618_...",
+
+
+717
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581629_...",
+
+
+718
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581633_...",
+
+
+719
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY461737_...",
+
+
+720
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY461738_...",
+
+
+721
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861970_...",
+
+
+722
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ993108_...",
+
+
+723
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ993110_...",
+
+
+724
+ "location": "*,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">JQ993112_...,>JQ993135_...,>JQ993139_...,>JQ993141_...,>JQ993143_...",
+
+
+725
+ "location": "*,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.",
+ "identical_name": ">JQ993114_...,>JQ993137_...,>JQ993138_...,>JQ993144_...",
+
+
+726
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">JQ993117_...,>JQ993147_...,>JQ993151_...",
+
+
+727
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ993134_...",
+
+
+728
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ993146_...",
+
+
+729
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">JQ993148_...,>JQ993150_...",
+
+
+730
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ993149_...",
+
+
+731
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415496_...",
+
+
+732
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415509_...",
+
+
+733
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">GQ357690_...",
+
+
+734
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">FJ687474_...",
+
+
+735
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">FJ158612_...",
+
+
+736
+ "location": "*,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.",
+ "identical_name": ">JQ581607_...,>JQ581608_...,>JQ581609_...,>JQ581611_...",
+
+
+737
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581610_...",
+
+
+738
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">JQ581614_...,>JQ581616_...",
+
+
+739
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581635_...",
+
+
+740
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581638_...",
+
+
+741
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581640_...",
+
+
+742
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">JQ581642_...,>JQ581643_...",
+
+
+743
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581645_...",
+
+
+744
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581647_...",
+
+
+745
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861922_...",
+
+
+746
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861966_...",
+
+
+747
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861967_...",
+
+
+748
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">JQ993118_...,>JQ993119_...",
+
+
+749
+ "location": "*,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.",
+ "identical_name": ">JQ993121_...,>JQ993122_...,>JQ993155_...,>JQ993156_...",
+
+
+750
+ "location": "*,at,at,at,at,at,at,at,at,at,at,at,at,at",
+ "collection_date": ",+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.,+/100.",
+ "identical_name": ">JQ993124_...,>JQ993125_...,>JQ993126_...,>JQ993128_...,>JQ993158_...,>JQ993165_...,>JQ993166_...,>JQ993170_...,>JQ993175_...,>JQ993176_...,>JQ993179_...,>JQ993180_...,>JQ993182_...,>JQ993185_...",
+
+
+751
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ993127_...",
+
+
+752
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ993152_...",
+
+
+753
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ993162_...",
+
+
+754
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ993164_...",
+
+
+755
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">JQ993167_...,>JQ993174_...",
+
+
+756
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ993178_...",
+
+
+757
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">JQ993183_...,>JQ993189_...,>JQ993192_...",
+
+
+758
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ993188_...",
+
+
+759
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ993190_...",
+
+
+760
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ993193_...",
+
+
+761
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415533_...",
+
+
+762
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">FJ196858_...",
+
+
+763
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">FJ196859_...",
+
+
+764
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">FJ196860_...",
+
+
+765
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">FJ687475_...",
+
+
+766
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">JQ993131_...,>JQ993194_...",
+
+
+767
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415516_...",
+
+
+768
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN376781_...",
+
+
+769
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JF297583_...",
+
+
+770
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">EF654106_...,>EF654107_...",
+
+
+771
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581632_...",
+
+
+772
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KC861923_...,>KC861934_...",
+
+
+773
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KC861929_...,>KC861972_...",
+
+
+774
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861943_...",
+
+
+775
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861954_...",
+
+
+776
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861956_...",
+
+
+777
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415524_...",
+
+
+778
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN376780_...",
+
+
+779
+ "location": "*,at,at",
+ "collection_date": ",+/100.,+/100.",
+ "identical_name": ">DQ285549_...,>DQ285551_...,>DQ285553_...",
+
+
+780
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">DQ285552_...",
+
+
+781
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">DQ285554_...",
+
+
+782
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">JN415488_...,>JN415514_...",
+
+
+783
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415518_...",
+
+
+784
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN376779_...",
+
+
+785
+ "location": "*,at",
+ "collection_date": ",+/100.",
+ "identical_name": ">KC861930_...,>KC861979_...",
+
+
+786
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415503_...",
+
+
+787
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415522_...",
+
+
+788
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KY275187_...",
+
+
+789
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581651_...",
+
+
+790
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415525_...",
+
+
+791
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JN415499_...",
+
+
+792
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF672792_...",
+
+
+793
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KC861947_...",
+
+
+794
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581648_...",
+
+
+795
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JQ581649_...",
+
+
+796
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">KF672791_...",
+
+
+797
+ "location": "*",
+ "collection_date": "",
+ "identical_name": ">JF297575_...",
+
+
+
+
