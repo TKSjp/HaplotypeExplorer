@@ -25,14 +25,14 @@ The way to visualize users data is also described in Figure 2. Please see also `
 
 ## Limitation
 
-There are upper limits for sequence number, SNV length, and genetic distance for inputs. They affect calculation time and result. 
+Sequence amount, SNV length, and genetic distance among inputs will affect calculation time and result. 
 
 - The TCS requires several hours for a few thousands sequences/SNVs (in standard iMac). Alignment also takes a long time for a large input.
 - It also splits the network automatically when inputs have too long genetic distance.
 - Using over thousands of sequences make it difficult to visualize the result clearly due to multiple edges.
 - Also, it does not consider sequence gaps, recombination, and reassortment.
 
-Therefore, we recommend to start with a small set and gradually scale up until you can obtain better result.
+Therefore, we recommend to start with a small set and gradually scale up until you can obtain a reasonable result.
 
 ## Citation
 
