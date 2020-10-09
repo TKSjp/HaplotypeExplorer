@@ -21,14 +21,14 @@ The way to visualize users data is also described in Figure 2. Please see also `
 
 - Install dependencies with conda: `conda install -c bioconda seqkit mafft cd-hit snp-sites trimal`
 - Put multi-FASTA as `input.fasta` and run `python createHTML.py`
-- `result.html` will automatically open after calcuration.
+- `result.html` will automatically open after calculation.
 
 ## Limitation
 
 There are upper limits for sequence number, SNV length, and genetic distance for inputs. They affect calculation time and result. 
 
-- The TCS requires several hours for a few thousands sequences/SNVs (in standard iMac). Alignment also takes long time for a large input.
-- It also split the network in case inputs have too long genetic distance.
+- The TCS requires several hours for a few thousands sequences/SNVs (in standard iMac). Alignment also takes a long time for a large input.
+- It also splits the network automatically when inputs have too long genetic distance.
 - Using over thousands of sequences make it difficult to visualize the result clearly due to multiple edges.
 - Also, it does not consider sequence gaps, recombination, and reassortment.
 
