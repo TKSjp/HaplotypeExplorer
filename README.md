@@ -4,13 +4,13 @@ HaplotypeExplorer is an interactive haplotype network viewer for spatiotemporal 
 
 ## How to start
 
-- Click "↓Code" button and download files.
+- Click green button "↓Code" and download files.
 - To see example results, open `Example`.
 - To visualize your data in Haplotype Explorer, run `python createHTML.py` after preparing `input.fasta` and installing dependencies.
 
 ## Contents of `Example` 
 
-- Example networks, JSON files, and a movie are available in `Example`. Please look after download pressing green button "↓Code".
+- Example networks, JSON files, and a movie are available in `Example`. Please look after download by pressing green button "↓Code".
   - html files: Example outputs of Haplotype Explorer. Please open it in a browser after saving as a HTML file.
   - json files: Users can share and resume the network by input JSON into Haplotype Explorer. Please see `manual.pdf`.
   - movie: The movie depicting the eruption of the SARS-CoV-2 in the world from 2019 DEC 31 to 2020 MAR 21. 
