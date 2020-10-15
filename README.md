@@ -32,7 +32,11 @@ Sequence amount, SNV length, and genetic distance among inputs will affect calcu
 - Using over thousands of sequences make it difficult to visualize the result clearly due to multiple edges.
 - Also, it does not consider sequence gaps, recombination, and reassortment.
 
-Therefore, we recommend to start with a small set and gradually scale up until you can obtain a reasonable result.
+Therefore, we recommend:
+
+- start with a small set and gradually scale up until you can obtain a reasonable result.
+- use < 1000 sequences and < 2000 SNVs. 
+- analyze independently within familiar lineages for long distanced input
 
 ## Citation
 
