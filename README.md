@@ -20,6 +20,7 @@ HaplotypeExplorer is an interactive haplotype network viewer for spatiotemporal 
 The way to visualize users data is also described in Figure 2. Please see also `manual.pdf`.
 
 - Install dependencies with conda: `conda install -c bioconda seqkit mafft cd-hit snp-sites trimal`
+  - If you have no permission to access /usr/local/, you will need to specify another path with `--prefix` when you run conda.
 - Put multi-FASTA as `input.fasta` and run `python createHTML.py`
 - `result.html` will automatically open after calculation.
 
@@ -29,7 +30,7 @@ Sequence amount, SNV length, and genetic distance among inputs will affect calcu
 
 - The TCS requires several hours for a few thousands sequences/SNVs (in standard iMac). Alignment also takes a long time for a large input.
 - It also splits the network automatically when inputs have too long genetic distance.
-- Using over thousands of sequences make it difficult to visualize the result clearly due to multiple edges.
+- Using over thousands of sequences make it difficult to visualize the result due to multiple edges.
 - Also, it does not consider sequence gaps, recombination, and reassortment.
 
 Therefore, we recommend:
