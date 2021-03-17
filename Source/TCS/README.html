@@ -1,0 +1,80 @@
+<h2>TCS 1.21 readme</h2>
+<hr>
+<h3>Recent Updates</h3>
+
+Version 1.21 (30 June 2005)<ul>
+<li>Fixed the mapping code to deal with gaps correctly as defined in the GUI, either as 5th state or as missing (IUPAC ambiguity characters are always treated as missing data).
+</li>
+</ul>
+
+Version 1.20 (25 June 2005)<ul>
+<li>Added code to map character substitutions to the branches. By clicking on the button "Show changes" the program will display changes across branches. Ambiguous assignations will show an asterisk (*) before the site number. The exact location of a change along branches of length > 1 is arbitrary. This new feature should be double-checked by the user.</li>
+<li>Fixed "Save Graph". Now it works well</li>
+<li>IUPAC warning will appear just once</li>
+<li>GUI behavior improvement</li>
+<li>Aesthetic changes</li>
+</ul>
+
+
+Further details are given in the documentation and at the beggining of the file TCS.java.
+<hr>
+
+
+<h3>Requirements</h3>
+To run TCS, a Java Virtual Machine (JVM) has to be properly installed in your system. To test your JVM
+<ul>
+<li>Go to <a href="http://javatester.org/version.html"target="_blank">http://javatester.org/version.html</a></li>
+<li>Or in a terminal window, type "java -version".</li>
+</ul>
+
+The JVM is included also in on the Java Runtime Environment (JRE) or the Java 2 Platform Standard Edition (J2SE). More information on obtaining the JVM at  <a href="http://java.sun.com/" target="_blank">http://java.sun.com</a>. To automatically download the JVM at 
+ <a href="http://java.sun.com/webapps/getjava/BrowserRedirect" target="_blank">http://java.sun.com/webapps/getjava/BrowserRedirect</a>
+
+<ul>
+<li>Windows: Java 1.4.2 works fine.</li>
+<li>Unix-like: Java 1.4.2 should work fine.</li>
+<li>MacOS X 10.4.1: The latest versions of Java, 1.4.2_07 or 1.5.0_02 work fine. </li>
+</ul>
+<hr>
+
+<h3>How to start TCS</h3>
+<ul>
+<li>Windows: double click on the TCS.1.21.jar file. Suggestion from Christoph Held:</li>
+<ol>
+<li>Create a directory somewhere you like and name it e.g. "TCS".</li>
+<li>Unzip the content of the file you have downloaded to this directory (tick the option "use folder names" or similar in your zip program to maintain the directory structure of TCS. No further installation steps are needed.</li>
+<li>Inside the directory you have created you will find a "TCS1.21" sub-directory. To get TCS to run, double-click on the file "TCS1.21.jar" inside this subdirectory.</li>
+<li>If all that happens is that a zip program window popping up, you will have to deactivate the association of the "*.jar" filetype with your ZIP program in its options tab.</li>
+</ol>
+<li>Unix-like: double click on the TCS.1.21.jar file or type "java -jar TCS1.21.jar" in a terminal window after moving to the TCS directory.</li>
+<li>MacOS X: double click on the TCS.1.21.jar file or type "java -jar TCS1.21.jar" in the console terminal.</li>
+</ul>
+<hr>
+
+<h3>Input files</h3>
+TCS will accept an alignment of DNA sequences in NEXUS sequential (<i>example.nex</i>) or PHYLIP sequential (<i>example.phy</i>) format. If needed, the program will  automatically collapse the sequences into unique haplotypes and then proceed to the cladogram estimation. Example files are provided under the "sample" directory.
+<hr>
+
+<h3>Output files</h3>
+It will save a graph (<i>dataname.graph</i>) that it can be opened later. Note that if there are several unconnected subnetworks, TCS will not spread those automatically. If there are overlapping haplotypes in the resulting graph, the user will need to move then around using the mouse. Nothing should overlap at the end. Note that the lenght of the branches is meaningless here, they alwaus imply one difference.
+<hr>
+
+<h3>Missing data</h3>
+If some sequences differ only by missing data,  collapsing to haplotypes might be ambiguous and dependent on the order of the sequences. TCS will give an alert in such cases.  Check the data and the haplotype list in the logfile. More discussion in the documentation
+<hr>
+
+<h3>Documentation</h3>
+Detailed documentation describing TCS usage is included in the file "TCS1.21.html" under the directory "docs". This file can be open directly by double-clicking or accessed through the menu "TCS" if the directory structure is preserved. A pdf files is also provided.
+<hr>
+
+<h3>FAQs</h3>
+There is a <a href="http://darwin.uvigo.es/" target="_blank">FAQs web site</a> with some questions and answers on TCS.
+<hr>
+
+<h3>Disclaimer</h3>
+<i>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.</i> See the file "gpl.html" under the "license" directory.
+<hr>
+
+<br>
+David Posada (dposada@uvigo.es) July 2005
+Steven Wolley

@@ -1,0 +1,145 @@
+TCS v1.21
+Tue Apr 07 13:30:06 JST 2020
+Datafile = /Users/tetsurokawano/Downloads/TCS1.21/examples/example.phy
+Current OS = macintosh
+
+Data in PHYLIP format
+Number of sequences: 29
+Length of sequences: 404
+
+
+_________________________________________________________
+
+
+PARSIMONY PROBABILITY
+For 1 step(s),	P(95%) = 0.9990002429779099
+For 2 step(s),	P(95%) = 0.996500128788135
+For 3 step(s),	P(95%) = 0.992802894939647
+For 4 step(s),	P(95%) = 0.9878842847009448
+For 5 step(s),	P(95%) = 0.9817561252536028
+For 6 step(s),	P(95%) = 0.974435815458113
+For 7 step(s),	P(95%) = 0.9659450513170436
+For 8 step(s),	P(95%) = 0.9563098722214465
+For 9 step(s),	P(95%) = 0.9455605412765914
+
+
+RUN SETTINGS
+Calculated maximum connection steps at 95% = 8
+Gaps treated as fifth state
+
+
+HAPLOTYPES
+Number of haplotypes = 13
+
+Haplotype list:
+
+
+ - Seq1       : 
+ - Seq2       : 
+ - Seq3       : 
+ - Seq4       :  Seq23      Seq24      Seq25      Seq26      Seq27      Seq28      Seq29     
+ - Seq5       : 
+ - Seq6       : 
+ - Seq7       : 
+ - Seq8       : 
+ - Seq9       : 
+ - Seq10      :  Seq11      Seq12      Seq13      Seq14      Seq15      Seq18      Seq19     
+ - Seq16      :  Seq21     
+ - Seq17      :  Seq22     
+ - Seq20      : 
+
+
+
+CONNECTIONS
+adding two min taxa 9[Seq10     ] , 12[Seq20     ]
+In clusters 8 , 11 distance 5
+
+
+REAL DISTANCE MATRIX
+pos:   					  1  2  3  4  5  6  7  8  9  10  11  12  13 
+[Seq1      ]1 	: --  2  2  3  4  4  3  4  3  2  9  9  7 
+[Seq2      ]2 	: 2  --  2  3  4  4  3  4  3  2  9  9  7 
+[Seq3      ]3 	: 2  2  --  3  4  4  3  4  3  2  9  9  7 
+[Seq4      ]4 	: 3  3  3  --  3  3  2  3  2  1  8  8  6 
+[Seq5      ]5 	: 4  4  4  3  --  2  1  2  3  2  9  9  7 
+[Seq6      ]6 	: 4  4  4  3  2  --  1  2  3  2  9  9  7 
+[Seq7      ]7 	: 3  3  3  2  1  1  --  1  2  1  8  8  6 
+[Seq8      ]8 	: 4  4  4  3  2  2  1  --  3  2  9  9  7 
+[Seq9      ]9 	: 3  3  3  2  3  3  2  3  --  1  8  8  6 
+[Seq10     ]10	: 2  2  2  1  2  2  1  2  1  --  7  7  5 
+[Seq16     ]11	: 9  9  9  8  9  9  8  9  8  7  --  4  2 
+[Seq17     ]12	: 9  9  9  8  9  9  8  9  8  7  4  --  2 
+[Seq20     ]13	: 7  7  7  6  7  7  6  7  6  5  2  2  -- 
+
+
+
+COMPUTED FROM THE NETWORK DISTANCE MATRIX
+pos:   					  1  2  3  4  5  6  7  8  9  10  11  12  13 
+[Seq1      ]1 	: --  2  2  3  4  4  3  4  3  2  9  9  7 
+[Seq2      ]2 	: 2  --  2  3  4  4  3  4  3  2  9  9  7 
+[Seq3      ]3 	: 2  2  --  3  4  4  3  4  3  2  9  9  7 
+[Seq4      ]4 	: 3  3  3  --  3  3  2  3  2  1  8  8  6 
+[Seq5      ]5 	: 4  4  4  3  --  2  1  2  3  2  9  9  7 
+[Seq6      ]6 	: 4  4  4  3  2  --  1  2  3  2  9  9  7 
+[Seq7      ]7 	: 3  3  3  2  1  1  --  1  2  1  8  8  6 
+[Seq8      ]8 	: 4  4  4  3  2  2  1  --  3  2  9  9  7 
+[Seq9      ]9 	: 3  3  3  2  3  3  2  3  --  1  8  8  6 
+[Seq10     ]10	: 2  2  2  1  2  2  1  2  1  --  7  7  5 
+[Seq16     ]11	: 9  9  9  8  9  9  8  9  8  7  --  4  2 
+[Seq17     ]12	: 9  9  9  8  9  9  8  9  8  7  4  --  2 
+[Seq20     ]13	: 7  7  7  6  7  7  6  7  6  5  2  2  -- 
+
+
+
+DIFFERENCE MATRIX 
+pos:   					  1  2  3  4  5  6  7  8  9  10  11  12  13 
+[Seq1      ]1 	: --  0  0  0  0  0  0  0  0  0  0  0  0 
+[Seq2      ]2 	: 0  --  0  0  0  0  0  0  0  0  0  0  0 
+[Seq3      ]3 	: 0  0  --  0  0  0  0  0  0  0  0  0  0 
+[Seq4      ]4 	: 0  0  0  --  0  0  0  0  0  0  0  0  0 
+[Seq5      ]5 	: 0  0  0  0  --  0  0  0  0  0  0  0  0 
+[Seq6      ]6 	: 0  0  0  0  0  --  0  0  0  0  0  0  0 
+[Seq7      ]7 	: 0  0  0  0  0  0  --  0  0  0  0  0  0 
+[Seq8      ]8 	: 0  0  0  0  0  0  0  --  0  0  0  0  0 
+[Seq9      ]9 	: 0  0  0  0  0  0  0  0  --  0  0  0  0 
+[Seq10     ]10	: 0  0  0  0  0  0  0  0  0  --  0  0  0 
+[Seq16     ]11	: 0  0  0  0  0  0  0  0  0  0  --  0  0 
+[Seq17     ]12	: 0  0  0  0  0  0  0  0  0  0  0  --  0 
+[Seq20     ]13	: 0  0  0  0  0  0  0  0  0  0  0  0  -- 
+
+The total positive difference matrix is 0.0
+
+The total negative difference matrix is 0.0
+
+
+
+OUTGROUP WEIGHTS
+*** Network 1
+Seq9       weigth = 0.012345679012345678
+Seq6       weigth = 0.012345679012345678
+Seq5       weigth = 0.012345679012345678
+Seq7       weigth = 0.2962962962962963
+Seq4       weigth = 0.09876543209876543
+Seq1       weigth = 0.012345679012345678
+Seq2       weigth = 0.012345679012345678
+Seq10      weigth = 0.4444444444444444
+Seq3       weigth = 0.012345679012345678
+Seq8       weigth = 0.012345679012345678
+Seq17      weigth = 0.024691358024691357
+Seq16      weigth = 0.024691358024691357
+Seq20      weigth = 0.024691358024691357
+Total weight = 40.5
+Biggest outgroup probability is Seq10      (0.4444444444444444)
+
+
+
+Calculations are finished.
+
+
+
+_________________________________________________________
+TCS v1.21
+Tue Apr 07 13:30:06 JST 2020
+Datafile = /Users/tetsurokawano/Downloads/TCS1.21/examples/example.phy
+
+It took 0.00195 minutes.
