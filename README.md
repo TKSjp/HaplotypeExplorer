@@ -24,6 +24,10 @@ The way to visualize users data is also described in Figure 2. Please see also `
 - Put multi-FASTA as `input.fasta` and run `python createHTML.py`
 - `result.html` will automatically open after calculation.
 
+## Requirements
+
+- We confirmed compatibilities of Haplotype Explorer and the bundled python scripts with the latest versions of Safari, Firefox, Edge, Chrome, and Python3 on macOS Catalina 10.15.3, respectively.
+
 ## Limitation
 
 Sequence amount, SNV length, and genetic distance among inputs will affect calculation time and result. 
