@@ -68,9 +68,9 @@ with open(inputfilename) as fopen:
 		# cluster = defined, block = defined, not header
 		if ('cluster' in locals()) == True and ('block' in locals()) == True and line[0] != '>':
 			line = block.parseLine(line)
-			block.location.append(line[3])
+			block.location.append(line[2])
 			block.collectionDate.append(line[4][:-3])
-			block.gisaid.append(line[2])
+			block.gisaid.append(line[3])
 			continue
 
 		# cluster = defined, block = defined, at next header
